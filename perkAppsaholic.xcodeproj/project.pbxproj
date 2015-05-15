@@ -7,6 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C63311DC1B06573A0099A6EC /* AerServSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C63311B61B06573A0099A6EC /* AerServSDK.framework */; };
+		C63311DD1B06573A0099A6EC /* VERSION in Resources */ = {isa = PBXBuildFile; fileRef = C63311B71B06573A0099A6EC /* VERSION */; };
+		C63311DE1B06573A0099A6EC /* AppsaholicSDK.podspec in Resources */ = {isa = PBXBuildFile; fileRef = C63311B91B06573A0099A6EC /* AppsaholicSDK.podspec */; };
+		C63311DF1B06573A0099A6EC /* FBAudienceNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C63311BB1B06573A0099A6EC /* FBAudienceNetwork.framework */; };
+		C63311E01B06573A0099A6EC /* FBAudienceNetwork.README.txt in Resources */ = {isa = PBXBuildFile; fileRef = C63311BC1B06573A0099A6EC /* FBAudienceNetwork.README.txt */; };
+		C63311E11B06573A0099A6EC /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = C63311BD1B06573A0099A6EC /* LICENSE */; };
+		C63311E21B06573A0099A6EC /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = C63311BE1B06573A0099A6EC /* README.txt */; };
+		C63311E31B06573A0099A6EC /* libAppsaholicSDK-2.2.1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C63311BF1B06573A0099A6EC /* libAppsaholicSDK-2.2.1.a */; };
+		C63311E41B06573A0099A6EC /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = C63311C11B06573A0099A6EC /* MBProgressHUD.m */; };
+		C63311E51B06573A0099A6EC /* pollfish.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C63311C31B06573A0099A6EC /* pollfish.framework */; };
+		C63311E61B06573A0099A6EC /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = C63311C41B06573A0099A6EC /* README.txt */; };
+		C63311E71B06573A0099A6EC /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = C63311C61B06573A0099A6EC /* Reachability.m */; };
+		C63311E81B06573A0099A6EC /* account.png in Resources */ = {isa = PBXBuildFile; fileRef = C63311C81B06573A0099A6EC /* account.png */; };
+		C63311E91B06573A0099A6EC /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = C63311C91B06573A0099A6EC /* back.png */; };
+		C63311EA1B06573A0099A6EC /* close_button.png in Resources */ = {isa = PBXBuildFile; fileRef = C63311CA1B06573A0099A6EC /* close_button.png */; };
+		C63311EB1B06573A0099A6EC /* exclaimation.png in Resources */ = {isa = PBXBuildFile; fileRef = C63311CB1B06573A0099A6EC /* exclaimation.png */; };
+		C63311EC1B06573A0099A6EC /* icon_close.png in Resources */ = {isa = PBXBuildFile; fileRef = C63311CC1B06573A0099A6EC /* icon_close.png */; };
+		C63311ED1B06573A0099A6EC /* icon_refresh.png in Resources */ = {isa = PBXBuildFile; fileRef = C63311CD1B06573A0099A6EC /* icon_refresh.png */; };
+		C63311EE1B06573A0099A6EC /* info.png in Resources */ = {isa = PBXBuildFile; fileRef = C63311CE1B06573A0099A6EC /* info.png */; };
+		C63311EF1B06573A0099A6EC /* info_circle.png in Resources */ = {isa = PBXBuildFile; fileRef = C63311CF1B06573A0099A6EC /* info_circle.png */; };
+		C63311F01B06573A0099A6EC /* logo_perk.png in Resources */ = {isa = PBXBuildFile; fileRef = C63311D01B06573A0099A6EC /* logo_perk.png */; };
+		C63311F11B06573A0099A6EC /* perk_star.png in Resources */ = {isa = PBXBuildFile; fileRef = C63311D11B06573A0099A6EC /* perk_star.png */; };
+		C63311F21B06573A0099A6EC /* TempUnavailable.png in Resources */ = {isa = PBXBuildFile; fileRef = C63311D21B06573A0099A6EC /* TempUnavailable.png */; };
+		C63311F31B06573A0099A6EC /* __vungle.db in Resources */ = {isa = PBXBuildFile; fileRef = C63311D51B06573A0099A6EC /* __vungle.db */; };
+		C63311F41B06573A0099A6EC /* vg_close.png in Resources */ = {isa = PBXBuildFile; fileRef = C63311D61B06573A0099A6EC /* vg_close.png */; };
+		C63311F51B06573A0099A6EC /* vg_cta.png in Resources */ = {isa = PBXBuildFile; fileRef = C63311D71B06573A0099A6EC /* vg_cta.png */; };
+		C63311F61B06573A0099A6EC /* vg_mute_off.png in Resources */ = {isa = PBXBuildFile; fileRef = C63311D81B06573A0099A6EC /* vg_mute_off.png */; };
+		C63311F71B06573A0099A6EC /* vg_mute_on.png in Resources */ = {isa = PBXBuildFile; fileRef = C63311D91B06573A0099A6EC /* vg_mute_on.png */; };
+		C63311F81B06573A0099A6EC /* vg_timer.png in Resources */ = {isa = PBXBuildFile; fileRef = C63311DA1B06573A0099A6EC /* vg_timer.png */; };
+		C63311F91B06573A0099A6EC /* VungleSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C63311DB1B06573A0099A6EC /* VungleSDK.framework */; };
+		C63311FB1B065D8B0099A6EC /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C63311FA1B065D8B0099A6EC /* iAd.framework */; };
+		C63311FD1B065DA80099A6EC /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C63311FC1B065DA80099A6EC /* MessageUI.framework */; };
+		C63311FF1B065DB70099A6EC /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C63311FE1B065DB70099A6EC /* MediaPlayer.framework */; };
+		C63312011B065DBD0099A6EC /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C63312001B065DBD0099A6EC /* AdSupport.framework */; };
+		C63312031B065DC30099A6EC /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C63312021B065DC30099A6EC /* CoreLocation.framework */; };
+		C63312051B065DD70099A6EC /* libxml2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C63312041B065DD70099A6EC /* libxml2.2.dylib */; };
+		C63312071B065E030099A6EC /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C63312061B065E030099A6EC /* SystemConfiguration.framework */; };
+		C63312091B065E0F0099A6EC /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C63312081B065E0F0099A6EC /* StoreKit.framework */; };
+		C633120B1B065E170099A6EC /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C633120A1B065E170099A6EC /* CoreMotion.framework */; };
+		C633120D1B065F040099A6EC /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C633120C1B065F040099A6EC /* CoreTelephony.framework */; };
 		C6B8C9501B064BBC00B9B9CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C6B8C94F1B064BBC00B9B9CF /* main.m */; };
 		C6B8C9531B064BBC00B9B9CF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C6B8C9521B064BBC00B9B9CF /* AppDelegate.m */; };
 		C6B8C9561B064BBC00B9B9CF /* perkAppsaholic.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C6B8C9541B064BBC00B9B9CF /* perkAppsaholic.xcdatamodeld */; };
@@ -28,6 +68,49 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C63311B61B06573A0099A6EC /* AerServSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AerServSDK.framework; sourceTree = "<group>"; };
+		C63311B71B06573A0099A6EC /* VERSION */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = VERSION; sourceTree = "<group>"; };
+		C63311B81B06573A0099A6EC /* AppsaholicSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppsaholicSDK.h; sourceTree = "<group>"; };
+		C63311B91B06573A0099A6EC /* AppsaholicSDK.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AppsaholicSDK.podspec; sourceTree = "<group>"; };
+		C63311BB1B06573A0099A6EC /* FBAudienceNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBAudienceNetwork.framework; sourceTree = "<group>"; };
+		C63311BC1B06573A0099A6EC /* FBAudienceNetwork.README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FBAudienceNetwork.README.txt; sourceTree = "<group>"; };
+		C63311BD1B06573A0099A6EC /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		C63311BE1B06573A0099A6EC /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		C63311BF1B06573A0099A6EC /* libAppsaholicSDK-2.2.1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libAppsaholicSDK-2.2.1.a"; sourceTree = "<group>"; };
+		C63311C01B06573A0099A6EC /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		C63311C11B06573A0099A6EC /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		C63311C31B06573A0099A6EC /* pollfish.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = pollfish.framework; sourceTree = "<group>"; };
+		C63311C41B06573A0099A6EC /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		C63311C51B06573A0099A6EC /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		C63311C61B06573A0099A6EC /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		C63311C81B06573A0099A6EC /* account.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = account.png; sourceTree = "<group>"; };
+		C63311C91B06573A0099A6EC /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		C63311CA1B06573A0099A6EC /* close_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = close_button.png; sourceTree = "<group>"; };
+		C63311CB1B06573A0099A6EC /* exclaimation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = exclaimation.png; sourceTree = "<group>"; };
+		C63311CC1B06573A0099A6EC /* icon_close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_close.png; sourceTree = "<group>"; };
+		C63311CD1B06573A0099A6EC /* icon_refresh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_refresh.png; sourceTree = "<group>"; };
+		C63311CE1B06573A0099A6EC /* info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = info.png; sourceTree = "<group>"; };
+		C63311CF1B06573A0099A6EC /* info_circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = info_circle.png; sourceTree = "<group>"; };
+		C63311D01B06573A0099A6EC /* logo_perk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_perk.png; sourceTree = "<group>"; };
+		C63311D11B06573A0099A6EC /* perk_star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = perk_star.png; sourceTree = "<group>"; };
+		C63311D21B06573A0099A6EC /* TempUnavailable.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TempUnavailable.png; sourceTree = "<group>"; };
+		C63311D51B06573A0099A6EC /* __vungle.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = __vungle.db; sourceTree = "<group>"; };
+		C63311D61B06573A0099A6EC /* vg_close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vg_close.png; sourceTree = "<group>"; };
+		C63311D71B06573A0099A6EC /* vg_cta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vg_cta.png; sourceTree = "<group>"; };
+		C63311D81B06573A0099A6EC /* vg_mute_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vg_mute_off.png; sourceTree = "<group>"; };
+		C63311D91B06573A0099A6EC /* vg_mute_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vg_mute_on.png; sourceTree = "<group>"; };
+		C63311DA1B06573A0099A6EC /* vg_timer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vg_timer.png; sourceTree = "<group>"; };
+		C63311DB1B06573A0099A6EC /* VungleSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = VungleSDK.framework; sourceTree = "<group>"; };
+		C63311FA1B065D8B0099A6EC /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		C63311FC1B065DA80099A6EC /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		C63311FE1B065DB70099A6EC /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		C63312001B065DBD0099A6EC /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		C63312021B065DC30099A6EC /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		C63312041B065DD70099A6EC /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.dylib; path = usr/lib/libxml2.2.dylib; sourceTree = SDKROOT; };
+		C63312061B065E030099A6EC /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		C63312081B065E0F0099A6EC /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		C633120A1B065E170099A6EC /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		C633120C1B065F040099A6EC /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		C6B8C94A1B064BBC00B9B9CF /* perkAppsaholic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = perkAppsaholic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6B8C94E1B064BBC00B9B9CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C6B8C94F1B064BBC00B9B9CF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -49,6 +132,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C633120D1B065F040099A6EC /* CoreTelephony.framework in Frameworks */,
+				C633120B1B065E170099A6EC /* CoreMotion.framework in Frameworks */,
+				C63312091B065E0F0099A6EC /* StoreKit.framework in Frameworks */,
+				C63312071B065E030099A6EC /* SystemConfiguration.framework in Frameworks */,
+				C63312051B065DD70099A6EC /* libxml2.2.dylib in Frameworks */,
+				C63312031B065DC30099A6EC /* CoreLocation.framework in Frameworks */,
+				C63312011B065DBD0099A6EC /* AdSupport.framework in Frameworks */,
+				C63311FF1B065DB70099A6EC /* MediaPlayer.framework in Frameworks */,
+				C63311FD1B065DA80099A6EC /* MessageUI.framework in Frameworks */,
+				C63311FB1B065D8B0099A6EC /* iAd.framework in Frameworks */,
+				C63311DC1B06573A0099A6EC /* AerServSDK.framework in Frameworks */,
+				C63311E31B06573A0099A6EC /* libAppsaholicSDK-2.2.1.a in Frameworks */,
+				C63311DF1B06573A0099A6EC /* FBAudienceNetwork.framework in Frameworks */,
+				C63311F91B06573A0099A6EC /* VungleSDK.framework in Frameworks */,
+				C63311E51B06573A0099A6EC /* pollfish.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,9 +160,123 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C63311B21B06573A0099A6EC /* ThirdPartyLib */ = {
+			isa = PBXGroup;
+			children = (
+				C63311B31B06573A0099A6EC /* AppsaholicUniversalSDK */,
+			);
+			path = ThirdPartyLib;
+			sourceTree = "<group>";
+		};
+		C63311B31B06573A0099A6EC /* AppsaholicUniversalSDK */ = {
+			isa = PBXGroup;
+			children = (
+				C63311B41B06573A0099A6EC /* aerserv-ios-sdk-min */,
+				C63311B81B06573A0099A6EC /* AppsaholicSDK.h */,
+				C63311B91B06573A0099A6EC /* AppsaholicSDK.podspec */,
+				C63311BA1B06573A0099A6EC /* FacebookSDK */,
+				C63311BF1B06573A0099A6EC /* libAppsaholicSDK-2.2.1.a */,
+				C63311C01B06573A0099A6EC /* MBProgressHUD.h */,
+				C63311C11B06573A0099A6EC /* MBProgressHUD.m */,
+				C63311C21B06573A0099A6EC /* PollfishSDK */,
+				C63311C51B06573A0099A6EC /* Reachability.h */,
+				C63311C61B06573A0099A6EC /* Reachability.m */,
+				C63311C71B06573A0099A6EC /* Resources */,
+				C63311D31B06573A0099A6EC /* VungleSDK.embeddedframework */,
+			);
+			path = AppsaholicUniversalSDK;
+			sourceTree = "<group>";
+		};
+		C63311B41B06573A0099A6EC /* aerserv-ios-sdk-min */ = {
+			isa = PBXGroup;
+			children = (
+				C63311B51B06573A0099A6EC /* lib */,
+				C63311B71B06573A0099A6EC /* VERSION */,
+			);
+			path = "aerserv-ios-sdk-min";
+			sourceTree = "<group>";
+		};
+		C63311B51B06573A0099A6EC /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				C63311B61B06573A0099A6EC /* AerServSDK.framework */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		C63311BA1B06573A0099A6EC /* FacebookSDK */ = {
+			isa = PBXGroup;
+			children = (
+				C63311BB1B06573A0099A6EC /* FBAudienceNetwork.framework */,
+				C63311BC1B06573A0099A6EC /* FBAudienceNetwork.README.txt */,
+				C63311BD1B06573A0099A6EC /* LICENSE */,
+				C63311BE1B06573A0099A6EC /* README.txt */,
+			);
+			path = FacebookSDK;
+			sourceTree = "<group>";
+		};
+		C63311C21B06573A0099A6EC /* PollfishSDK */ = {
+			isa = PBXGroup;
+			children = (
+				C63311C31B06573A0099A6EC /* pollfish.framework */,
+				C63311C41B06573A0099A6EC /* README.txt */,
+			);
+			path = PollfishSDK;
+			sourceTree = "<group>";
+		};
+		C63311C71B06573A0099A6EC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C63311C81B06573A0099A6EC /* account.png */,
+				C63311C91B06573A0099A6EC /* back.png */,
+				C63311CA1B06573A0099A6EC /* close_button.png */,
+				C63311CB1B06573A0099A6EC /* exclaimation.png */,
+				C63311CC1B06573A0099A6EC /* icon_close.png */,
+				C63311CD1B06573A0099A6EC /* icon_refresh.png */,
+				C63311CE1B06573A0099A6EC /* info.png */,
+				C63311CF1B06573A0099A6EC /* info_circle.png */,
+				C63311D01B06573A0099A6EC /* logo_perk.png */,
+				C63311D11B06573A0099A6EC /* perk_star.png */,
+				C63311D21B06573A0099A6EC /* TempUnavailable.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C63311D31B06573A0099A6EC /* VungleSDK.embeddedframework */ = {
+			isa = PBXGroup;
+			children = (
+				C63311D41B06573A0099A6EC /* Resources */,
+				C63311DB1B06573A0099A6EC /* VungleSDK.framework */,
+			);
+			path = VungleSDK.embeddedframework;
+			sourceTree = "<group>";
+		};
+		C63311D41B06573A0099A6EC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C63311D51B06573A0099A6EC /* __vungle.db */,
+				C63311D61B06573A0099A6EC /* vg_close.png */,
+				C63311D71B06573A0099A6EC /* vg_cta.png */,
+				C63311D81B06573A0099A6EC /* vg_mute_off.png */,
+				C63311D91B06573A0099A6EC /* vg_mute_on.png */,
+				C63311DA1B06573A0099A6EC /* vg_timer.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		C6B8C9411B064BBC00B9B9CF = {
 			isa = PBXGroup;
 			children = (
+				C633120C1B065F040099A6EC /* CoreTelephony.framework */,
+				C633120A1B065E170099A6EC /* CoreMotion.framework */,
+				C63312081B065E0F0099A6EC /* StoreKit.framework */,
+				C63312061B065E030099A6EC /* SystemConfiguration.framework */,
+				C63312041B065DD70099A6EC /* libxml2.2.dylib */,
+				C63312021B065DC30099A6EC /* CoreLocation.framework */,
+				C63312001B065DBD0099A6EC /* AdSupport.framework */,
+				C63311FE1B065DB70099A6EC /* MediaPlayer.framework */,
+				C63311FC1B065DA80099A6EC /* MessageUI.framework */,
+				C63311FA1B065D8B0099A6EC /* iAd.framework */,
 				C6B8C94C1B064BBC00B9B9CF /* perkAppsaholic */,
 				C6B8C9691B064BBC00B9B9CF /* perkAppsaholicTests */,
 				C6B8C94B1B064BBC00B9B9CF /* Products */,
@@ -83,6 +295,7 @@
 		C6B8C94C1B064BBC00B9B9CF /* perkAppsaholic */ = {
 			isa = PBXGroup;
 			children = (
+				C63311B21B06573A0099A6EC /* ThirdPartyLib */,
 				C6B8C9511B064BBC00B9B9CF /* AppDelegate.h */,
 				C6B8C9521B064BBC00B9B9CF /* AppDelegate.m */,
 				C6B8C9571B064BBC00B9B9CF /* ViewController.h */,
@@ -202,9 +415,32 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C63311F51B06573A0099A6EC /* vg_cta.png in Resources */,
+				C63311EA1B06573A0099A6EC /* close_button.png in Resources */,
+				C63311F31B06573A0099A6EC /* __vungle.db in Resources */,
+				C63311F61B06573A0099A6EC /* vg_mute_off.png in Resources */,
+				C63311F11B06573A0099A6EC /* perk_star.png in Resources */,
+				C63311E01B06573A0099A6EC /* FBAudienceNetwork.README.txt in Resources */,
+				C63311E81B06573A0099A6EC /* account.png in Resources */,
+				C63311E61B06573A0099A6EC /* README.txt in Resources */,
+				C63311F01B06573A0099A6EC /* logo_perk.png in Resources */,
 				C6B8C95C1B064BBC00B9B9CF /* Main.storyboard in Resources */,
+				C63311DD1B06573A0099A6EC /* VERSION in Resources */,
+				C63311EB1B06573A0099A6EC /* exclaimation.png in Resources */,
+				C63311EE1B06573A0099A6EC /* info.png in Resources */,
+				C63311EF1B06573A0099A6EC /* info_circle.png in Resources */,
+				C63311E11B06573A0099A6EC /* LICENSE in Resources */,
+				C63311F21B06573A0099A6EC /* TempUnavailable.png in Resources */,
+				C63311ED1B06573A0099A6EC /* icon_refresh.png in Resources */,
+				C63311DE1B06573A0099A6EC /* AppsaholicSDK.podspec in Resources */,
+				C63311E91B06573A0099A6EC /* back.png in Resources */,
+				C63311F41B06573A0099A6EC /* vg_close.png in Resources */,
 				C6B8C9611B064BBC00B9B9CF /* LaunchScreen.xib in Resources */,
+				C63311F71B06573A0099A6EC /* vg_mute_on.png in Resources */,
+				C63311E21B06573A0099A6EC /* README.txt in Resources */,
 				C6B8C95E1B064BBC00B9B9CF /* Images.xcassets in Resources */,
+				C63311F81B06573A0099A6EC /* vg_timer.png in Resources */,
+				C63311EC1B06573A0099A6EC /* icon_close.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,7 +460,9 @@
 			files = (
 				C6B8C9531B064BBC00B9B9CF /* AppDelegate.m in Sources */,
 				C6B8C9561B064BBC00B9B9CF /* perkAppsaholic.xcdatamodeld in Sources */,
+				C63311E41B06573A0099A6EC /* MBProgressHUD.m in Sources */,
 				C6B8C9591B064BBC00B9B9CF /* ViewController.m in Sources */,
+				C63311E71B06573A0099A6EC /* Reachability.m in Sources */,
 				C6B8C9501B064BBC00B9B9CF /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -351,8 +589,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/perkAppsaholic/ThirdPartyLib/AppsaholicUniversalSDK/aerserv-ios-sdk-min/lib",
+					"$(PROJECT_DIR)/perkAppsaholic/ThirdPartyLib/AppsaholicUniversalSDK/FacebookSDK",
+					"$(PROJECT_DIR)/perkAppsaholic/ThirdPartyLib/AppsaholicUniversalSDK/PollfishSDK",
+					"$(PROJECT_DIR)/perkAppsaholic/ThirdPartyLib/AppsaholicUniversalSDK/VungleSDK.embeddedframework",
+				);
 				INFOPLIST_FILE = perkAppsaholic/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/perkAppsaholic/ThirdPartyLib/AppsaholicUniversalSDK",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -361,8 +610,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/perkAppsaholic/ThirdPartyLib/AppsaholicUniversalSDK/aerserv-ios-sdk-min/lib",
+					"$(PROJECT_DIR)/perkAppsaholic/ThirdPartyLib/AppsaholicUniversalSDK/FacebookSDK",
+					"$(PROJECT_DIR)/perkAppsaholic/ThirdPartyLib/AppsaholicUniversalSDK/PollfishSDK",
+					"$(PROJECT_DIR)/perkAppsaholic/ThirdPartyLib/AppsaholicUniversalSDK/VungleSDK.embeddedframework",
+				);
 				INFOPLIST_FILE = perkAppsaholic/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/perkAppsaholic/ThirdPartyLib/AppsaholicUniversalSDK",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -420,6 +680,7 @@
 				C6B8C9721B064BBC00B9B9CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C6B8C9731B064BBC00B9B9CF /* Build configuration list for PBXNativeTarget "perkAppsaholicTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +689,7 @@
 				C6B8C9751B064BBC00B9B9CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
