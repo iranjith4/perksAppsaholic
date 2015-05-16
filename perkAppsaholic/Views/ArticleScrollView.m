@@ -8,6 +8,9 @@
 
 #import "ArticleScrollView.h"
 #import "Utilities.h"
+#import "AppsaholicSDK.h"
+
+#define ARTICLE_PAGE_READ_TIME 3
 
 @implementation ArticleScrollView{
     MWFeedItem *feedItem;
@@ -38,7 +41,7 @@
     yPos = 10;
     
     //Setting the number of Pages to 4
-    numberOfPages = 10;
+    numberOfPages = 3;
     
     // Scroll Settings
     self.scrollEnabled = YES;
@@ -52,7 +55,7 @@
     //Adding Timer Array
     
     for (int i = 0; i < numberOfPages; i++) {
-        [timerArray setObject:[NSNumber numberWithInt:numberOfPages] atIndexedSubscript:i];
+        [timerArray addObject:[NSNumber numberWithInt:0]];
     }
     
     // Arrangement of UIs
@@ -176,22 +179,62 @@
 
 - (void)runTimerForPage:(int)page{
     if (timer.isValid) {
-        NSLog(@"TIME %f",timer.timeInterval);
+//        NSLog(@"TIME %f",timer.timeInterval);
         [self timerEnds:timer];
+        [self saveTimerData:timer];
         [timer invalidate];
     }
     NSLog(@"TIME %d running",page);
-   timer =  [NSTimer scheduledTimerWithTimeInterval:10 target:self selector:@selector(timerEnds:) userInfo:[NSNumber numberWithInt:page] repeats:NO];
+   timer =  [NSTimer scheduledTimerWithTimeInterval:ARTICLE_PAGE_READ_TIME target:self selector:@selector(timerEnds:) userInfo:[NSNumber numberWithInt:page] repeats:NO];
 }
 
 - (void)timerEnds:(NSTimer *)timers{
-    NSLog(@"%f",[self getTimeDiff:[timers.fireDate timeIntervalSinceReferenceDate]]);
+//    NSLog(@"%f",[self getTimeDiff:[timers.fireDate timeIntervalSinceReferenceDate]]);
+    [self saveTimerData:timers];
 }
 
 - (NSTimeInterval)getTimeDiff:(NSTimeInterval)time1{
     NSTimeInterval now = [[NSDate date] timeIntervalSinceReferenceDate];
     NSTimeInterval elapsed = time1 - now;
-    NSLog(@"HH %d for %@",(int)elapsed,timer.userInfo);
+//    NSLog(@"HH %d for %@",(int)elapsed,timer.userInfo);
     return elapsed;
 }
+
+- (void) saveTimerData:(NSTimer *)tm{
+    int timeToAdd;
+    int index = [tm.userInfo intValue];
+    int getTime = [[timerArray objectAtIndex:index] intValue];
+    if (getTime < ARTICLE_PAGE_READ_TIME) {
+        getTime = getTime + ARTICLE_PAGE_READ_TIME - [self getTimeDiff:[tm.fireDate timeIntervalSinceReferenceDate]];
+        if (getTime >= ARTICLE_PAGE_READ_TIME) {
+            timeToAdd = ARTICLE_PAGE_READ_TIME;
+        }else{
+            timeToAdd = getTime;
+        }
+        [timerArray setObject:[NSNumber numberWithInt:timeToAdd] atIndexedSubscript:index];
+       // NSLog(@"time %d added at %d",timeToAdd,index);
+    }else if (getTime == ARTICLE_PAGE_READ_TIME){
+        //Do Nothing
+    }
+    //TODO: Update Progress Chart
+    if ([self isUserGotAllPoints]) {
+        //DO the SDK thing here
+        [self addAppsPoints];
+        NSLog(@"DONEEEEEE !");
+    }
+}
+
+- (BOOL)isUserGotAllPoints{
+    for (NSNumber *num in timerArray) {
+        if ([num intValue]!= ARTICLE_PAGE_READ_TIME) {
+            return NO;
+        }
+    }
+    return YES;
+}
+
+- (void)addAppsPoints{
+    [self.del addpointsForArticles];
+}
+
 @end

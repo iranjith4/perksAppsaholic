@@ -8,6 +8,7 @@
 
 #import "ArticleDetailViewController.h"
 #import "ArticleScrollView.h"
+#import "Utilities.h"
 
 @interface ArticleDetailViewController (){
     ArticleScrollView *scroll;
@@ -24,12 +25,19 @@
 
 - (void)loadUIForFeed:(MWFeedItem *)feed{
     scroll = [[ArticleScrollView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height) andFeedItem:feed];
+    scroll.del = self;
     [self.view addSubview:scroll];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)addpointsForArticles{
+    [[AppsaholicSDK sharedManager] trackEvent:EVNT_ARTICLE notificationType:NO withController:self withSuccess:^(BOOL success, NSString *notificationtext, NSNumber *pointEarned) {
+        NSLog(@"%@ and %@",notificationtext,pointEarned);
+    }];
 }
 
 /*

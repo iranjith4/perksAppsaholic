@@ -35,6 +35,7 @@
     [self.heading sizeToFit];
     frame = self.heading.frame;
     frame.origin.y = yPos;
+    frame.size.width = self.frame.size.width - 20;
     self.heading.frame = frame;
     yPos += self.heading.frame.size.height + 5;
     
@@ -49,6 +50,7 @@
     self.summary.text = [Utilities decodedString:feedItem.summary];
     [self.summary sizeToFit];
     frame = self.summary.frame;
+    frame.size.width = self.frame.size.width - 20;
     frame.origin.y = yPos;
     self.summary.frame = frame;
     yPos += self.summary.frame.size.height + 5;
@@ -64,6 +66,7 @@
     self.time.text = [Utilities getReadingTimeFor:feedItem.content];
     [self.time sizeToFit];
     frame = self.time.frame;
+    frame.size.width = self.frame.size.width - 20;
     frame.origin.y = yPos;
     self.time.frame = frame;
     yPos += self.time.frame.size.height + 5;

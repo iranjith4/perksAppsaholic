@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 #import "MWFeedItem.h"
+#import "ArticleScrollView.h"
+#import "AppsaholicSDK.h"
 
-@interface ArticleDetailViewController : UIViewController
+@interface ArticleDetailViewController : UIViewController <ArticlesDelegate>
 
 - (void)loadUIForFeed:(MWFeedItem *)feed;
 

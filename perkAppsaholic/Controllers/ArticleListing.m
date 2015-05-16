@@ -175,6 +175,7 @@
     NSLog(@"Link        : %@",itm.link ? @"YES" : @"NO");
     NSLog(@"Date        : %@",itm.date ? @"YES" : @"NO");
     NSLog(@"Author      : %@",itm.author ? @"YES" : @"NO");
+    NSLog(@"ID          : %@",itm.identifier);
     NSLog(@"\n################\n################\n################\n################");
 }
 

@@ -9,6 +9,8 @@
 #import "ViewController.h"
 #import "NSString+HTML.h"
 #import "ArticleListing.h"
+#import "Utilities.h"
+#import "AppsaholicSDK.h"
 
 @interface ViewController ()
 
@@ -20,6 +22,9 @@
 }
 
 - (void)viewDidLoad {
+//    [AppsaholicSDK sharedManager];
+    ((AppsaholicSDK*)[AppsaholicSDK sharedManager]).rootViewController = self;
+    [self startAppsaholicSession];
     [super viewDidLoad];
     [self testFeedParsing];
     // Do any additional setup after loading the view, typically from a nib.
@@ -30,9 +35,15 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)startAppsaholicSession{
+    [[AppsaholicSDK sharedManager] startSession:APPSAHOLIC_API_KEY withSuccess:^(BOOL success, NSString* status) {
+        
+    }];
+}
+
 -(void)testFeedParsing {
     ArticleListing *articleList = [[ArticleListing alloc] initWithNibName:nil bundle:nil];
-    [articleList loadControllerWithArtile:@"https://www.yahoo.com/tech/rss"];
+    [articleList loadControllerWithArtile:@"http://feeds.arstechnica.com/arstechnica/apple/"];
     [self.navigationController pushViewController:articleList animated:NO];
 }
 

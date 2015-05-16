@@ -11,6 +11,13 @@
 #import "MWFeedItem.h"
 #import "NSString+HTML.h"
 
+#define APPSAHOLIC_API_KEY @"6deea98d606cc5f50ebd8fa8cb2458d18b6ef424"
+
+#define EVENT_IDS
+
+#define EVNT_ARTICLE @"54c6f5598ece8c0d5bdd7112744ec49ba5ac5ca2"
+
+
 // Fonts
 #define FONT_REGULAR @"Avenir-Book"
 #define FONT_THIN @"AppleSDGothicNeo-Thin"

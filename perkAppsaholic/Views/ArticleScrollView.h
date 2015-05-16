@@ -9,10 +9,17 @@
 #import <UIKit/UIKit.h>
 #import "MWFeedItem.h"
 
+@protocol ArticlesDelegate <NSObject>
+
+- (void)addpointsForArticles;
+
+@end
+
+
 @interface ArticleScrollView : UIScrollView<UIScrollViewDelegate>
 
 - (instancetype)initWithFrame:(CGRect)frame andFeedItem:(MWFeedItem *)feed;
 
-@property (nonatomic, assign) id<UIScrollViewDelegate> myOwnDelegate;
+@property (nonatomic, assign) id<ArticlesDelegate> del;
 
 @end
