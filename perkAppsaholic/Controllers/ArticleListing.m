@@ -108,7 +108,7 @@
         articleCell = [[ArticleListingCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"cell"];
     }
     [articleCell initUIFor:item];
-    NSLog(@"TT : %@",item.content);
+    [self checkContentFor:item];
     cell = articleCell;
     return cell;
 }
@@ -162,6 +162,21 @@
     [self.navigationController pushViewController:articleDetail animated:YES];
 }
 
+
+#pragma mark - Test Content
+
+- (void)checkContentFor:(MWFeedItem *)itm{
+    NSLog(@"\n################\n################\n################\n################");
+    NSLog(@"title       : %@",itm.title ? @"YES" : @"NO");
+    NSLog(@"summary     : %@",itm.summary ? @"YES" : @"NO");
+    NSLog(@"update time : %@",itm.updated ? @"YES" : @"NO");
+    NSLog(@"content     : %@",itm.content ? @"YES" : @"NO");
+    NSLog(@"enclosures  : %@",itm.enclosures ? @"YES" : @"NO");
+    NSLog(@"Link        : %@",itm.link ? @"YES" : @"NO");
+    NSLog(@"Date        : %@",itm.date ? @"YES" : @"NO");
+    NSLog(@"Author      : %@",itm.author ? @"YES" : @"NO");
+    NSLog(@"\n################\n################\n################\n################");
+}
 
 
 /*
