@@ -7,313 +7,296 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		05D67ADCD45DE0A5555A3C00 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 679E0FAC04643D9974E01894 /* AVFoundation.framework */; };
-		19AC0777057980ABD654D2D9 /* AppsaholicSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F15A202D450230E0A4C6728 /* AppsaholicSDK.h */; };
-		29A7A0C34A73B2667F2D052B /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68724AC3ADD81448F3C9B4ED /* CFNetwork.framework */; };
-		2A0DEB6C51E06AFFA6B5E3E6 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 989770D32F825F8415657DC9 /* CoreMedia.framework */; };
-		2AF667A43BE321B60A965600 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58D7D319C11A2239B4975EAE /* Foundation.framework */; };
-		356E0A2BB394EA6A4682CB72 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A07C5BF0FE9F9A0B9490FEE /* StoreKit.framework */; };
-		526FF7B8B72B495B60ABADDD /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A4CADCDE689114DB35F0A72 /* AudioToolbox.framework */; };
-		618B46BC8D86DE38D58BE109 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 9998F74017C29D07AE7DB540 /* MBProgressHUD.m */; };
-		6F992939EFA3AFE6E173B458 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 770B4106BD2045F4CA488D9B /* iAd.framework */; };
-		7393149976376C84968D0F6A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA7A6B756664E36D5110FD46 /* UIKit.framework */; };
-		7FCE01C5B84951A1561D41C2 /* Pods-perkAppsaholic-AppsaholicSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F08AC29792816E84025090 /* Pods-perkAppsaholic-AppsaholicSDK-dummy.m */; };
-		83974E4B87B697F07924345C /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF25C9EBD2CEACC23BD70FF6 /* CoreMotion.framework */; };
-		894EF9D24A00F80371E2597C /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF7701531ADAAC1F9539DAB3 /* CoreTelephony.framework */; };
-		8D3AED0D74BCB9AB7DEBEA36 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AF3656C323C512536D02C3F /* MediaPlayer.framework */; };
-		9188CFAA58BC6392F7AE8334 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B9EC5249F62BCADE69C0875 /* Reachability.m */; };
-		BAD27072A63DC66C0FFD4083 /* Pods-perkAppsaholic-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 28027E9ACDF651A1C2DA131B /* Pods-perkAppsaholic-dummy.m */; };
-		CBBB6F669224F6FCE24C3AD2 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5B9288220886A665A6CD7DF /* SystemConfiguration.framework */; };
-		CD419D94DD8B4851CB367672 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9DB0417EE594365CA17E016 /* AdSupport.framework */; };
-		D06D068888F72A114E1687D5 /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 320A9678A10AEE0DA54A3E7B /* Reachability.h */; };
-		DD77144D1C5B62A34F72BE1C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58D7D319C11A2239B4975EAE /* Foundation.framework */; };
-		DE52E781BD866831D28649FC /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = A3AB462948CB384C2243EF62 /* MBProgressHUD.h */; };
-		E1A99F61580EDB6D6BEDADD2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC8A9B6A2D000CBCE36D518D /* QuartzCore.framework */; };
-		F88D8F200CC2AA85D737DFBA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8DE565629D51F014447C184 /* CoreGraphics.framework */; };
+		10D4016D6FA6FE208725D348 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA3C9EEAB7DC262F55B69FDE /* CoreTelephony.framework */; };
+		209527E1F8353B4D3F45D2CD /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = E3B3F7839BFFBA44D5B16E2B /* MBProgressHUD.m */; };
+		2CBDB71357A8C503AEA3418C /* Pods-perkAppsaholic-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC584A914FA4F8EEE63D2DD /* Pods-perkAppsaholic-dummy.m */; };
+		318939164225F756F9EBB51E /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCE6C17D4142E50DAD294740 /* AudioToolbox.framework */; };
+		3ACAAD9A2C4628F0F14E9481 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C719F610147A1A37A1633369 /* iAd.framework */; };
+		3D525682B64DE64B12441CCB /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD5794111ED17274EEF5128 /* Reachability.m */; };
+		4092AFC70EF4F97EBF1433CF /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DE5322448F4CEDFAED47AE2 /* CFNetwork.framework */; };
+		469FBBB393229E372868C89C /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 342C023F3135158EB6E7D839 /* StoreKit.framework */; };
+		5A0CF17DBDD772972D61382B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2AF3C8F9E31A0F2F7D75C25 /* QuartzCore.framework */; };
+		5AC08691D1BACA22A85DF84A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BB6B347B59F5495AC39E41B /* Foundation.framework */; };
+		5D9ACB9D72C5DD94F18FEA94 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9267C65E7AF884E9C80771 /* AVFoundation.framework */; };
+		5E7758EAC48023E9671299E4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88A1731220AF0261D6690B5E /* CoreGraphics.framework */; };
+		614D92035C59A1923C0EFAAE /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 010EEC3F56CEE0E36C5071E3 /* CoreMedia.framework */; };
+		61ED813D7F59BF25853753F5 /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = AEA590C299D5BA9C722E8EFD /* Reachability.h */; };
+		836A5E0D4E571F87725FCC02 /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = C019BAAC084DB04143DCEB00 /* MBProgressHUD.h */; };
+		88489C13A69E263DE475AE3A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BB6B347B59F5495AC39E41B /* Foundation.framework */; };
+		8EE4C0FAC02DEFC3E05C604C /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C348649BEF36515D14090EEC /* AdSupport.framework */; };
+		9343871C58304418C19DC8E8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D8E8D558E7261B201FEA262 /* UIKit.framework */; };
+		9AD37913142BA07EA7AAAA1E /* Pods-perkAppsaholic-AppsaholicSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DE44EDB27F8DA4BF2F60EA0A /* Pods-perkAppsaholic-AppsaholicSDK-dummy.m */; };
+		BC5A8C9B02AD65B6BD0B587D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84D761E686D04B723E12148B /* SystemConfiguration.framework */; };
+		D64FBA825B2FC2EBEA725F75 /* AppsaholicSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = D4E5280974F94EF1587F6417 /* AppsaholicSDK.h */; };
+		D807A77E6A4004D3AA897D1E /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95262C915C10AD1020D09A7D /* MediaPlayer.framework */; };
+		FCF625D0CB155034B37E89EF /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAE2E7B15B6DC3BC2D1E8D7B /* CoreMotion.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		EC15796C296B1101A8EB763C /* PBXContainerItemProxy */ = {
+		D77F5CA43124F3FFBA3F2C3F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = CCB49530DD6DC20F0AB12036 /* Project object */;
+			containerPortal = FDC6EDE4F6361852C308B528 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 7EB21E3D618728B498D9FC03;
+			remoteGlobalIDString = 026D5EB8AAC34789731266A3;
 			remoteInfo = "Pods-perkAppsaholic-AppsaholicSDK";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0AF3656C323C512536D02C3F /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/MediaPlayer.framework; sourceTree = DEVELOPER_DIR; };
-		20E45D420DD130BF18784782 /* icon_close.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = icon_close.png; sourceTree = "<group>"; };
-		28027E9ACDF651A1C2DA131B /* Pods-perkAppsaholic-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-perkAppsaholic-dummy.m"; sourceTree = "<group>"; };
-		28F08AC29792816E84025090 /* Pods-perkAppsaholic-AppsaholicSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-perkAppsaholic-AppsaholicSDK-dummy.m"; sourceTree = "<group>"; };
-		2E7F690D93B1CFE5C8EB4E0A /* icon_refresh.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = icon_refresh.png; sourceTree = "<group>"; };
-		320A9678A10AEE0DA54A3E7B /* Reachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
-		3D50E834F97DB4001E6852FA /* Pods-perkAppsaholic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-perkAppsaholic.release.xcconfig"; sourceTree = "<group>"; };
-		4A07C5BF0FE9F9A0B9490FEE /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/StoreKit.framework; sourceTree = DEVELOPER_DIR; };
-		4B9EC5249F62BCADE69C0875 /* Reachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
-		58BF8EAE6FCB092BE1AD13A1 /* Pods-perkAppsaholic-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-perkAppsaholic-acknowledgements.markdown"; sourceTree = "<group>"; };
-		58D7D319C11A2239B4975EAE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		59986F2D4A515B0366BE71C0 /* logo_perk.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = logo_perk.png; sourceTree = "<group>"; };
-		5A4CADCDE689114DB35F0A72 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/AudioToolbox.framework; sourceTree = DEVELOPER_DIR; };
-		64F86D609E788CDC956388AD /* pollfish.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = pollfish.framework; path = PollfishSDK/pollfish.framework; sourceTree = "<group>"; };
-		679E0FAC04643D9974E01894 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
-		68724AC3ADD81448F3C9B4ED /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
-		6FA6563A19F51C106071A453 /* TempUnavailable.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = TempUnavailable.png; sourceTree = "<group>"; };
-		770B4106BD2045F4CA488D9B /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/iAd.framework; sourceTree = DEVELOPER_DIR; };
-		794A0BCF23DF480CB6667EBF /* libAppsaholicSDK-2.2.1.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = "libAppsaholicSDK-2.2.1.a"; sourceTree = "<group>"; };
-		7B347C22ECCF3ADD76E2E8D3 /* exclaimation.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = exclaimation.png; sourceTree = "<group>"; };
-		7EB1BCC963B403D23F382738 /* account.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = account.png; sourceTree = "<group>"; };
-		7F15A202D450230E0A4C6728 /* AppsaholicSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AppsaholicSDK.h; sourceTree = "<group>"; };
-		8B45412D0A553E3AE6D5B5D5 /* Pods-perkAppsaholic-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-perkAppsaholic-resources.sh"; sourceTree = "<group>"; };
-		989770D32F825F8415657DC9 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/CoreMedia.framework; sourceTree = DEVELOPER_DIR; };
-		9998F74017C29D07AE7DB540 /* MBProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
-		99E11B5CBA09DBD08F109FEE /* AerServSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AerServSDK.framework; path = "aerserv-ios-sdk-min/lib/AerServSDK.framework"; sourceTree = "<group>"; };
-		9EA27336BC606543DF0BFF05 /* back.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
-		9F1EB90B7E2DFA531486DA2E /* Pods-perkAppsaholic-AppsaholicSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-perkAppsaholic-AppsaholicSDK.xcconfig"; sourceTree = "<group>"; };
-		9FBB76293E4EE691B1F0D1DD /* FBAudienceNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBAudienceNetwork.framework; path = FacebookSDK/FBAudienceNetwork.framework; sourceTree = "<group>"; };
-		A3AB462948CB384C2243EF62 /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
-		A5B9288220886A665A6CD7DF /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
-		ADCE2B0B593F695718179966 /* Pods-perkAppsaholic-AppsaholicSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-perkAppsaholic-AppsaholicSDK-prefix.pch"; sourceTree = "<group>"; };
-		AFA4603A5B97744FB482D9CE /* close_button.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = close_button.png; sourceTree = "<group>"; };
-		B62EB586FCA2D1528C067E11 /* info_circle.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = info_circle.png; sourceTree = "<group>"; };
-		B8108CDA83569BF9A4E7B21E /* Pods-perkAppsaholic-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-perkAppsaholic-acknowledgements.plist"; sourceTree = "<group>"; };
-		B854A6AD082965B1A406B20E /* perk_star.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = perk_star.png; sourceTree = "<group>"; };
-		C3B3DC2438E0FF663B886812 /* libPods-perkAppsaholic.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-perkAppsaholic.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CA20C1F9B6991EEC6914B6B7 /* Pods-perkAppsaholic-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-perkAppsaholic-environment.h"; sourceTree = "<group>"; };
-		D8DE565629D51F014447C184 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
-		DA78F3064F45D5FF14006238 /* Pods-perkAppsaholic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-perkAppsaholic.debug.xcconfig"; sourceTree = "<group>"; };
-		DA7A6B756664E36D5110FD46 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		DC8A9B6A2D000CBCE36D518D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		E80846EFCD52AF8356CD811A /* libPods-perkAppsaholic-AppsaholicSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-perkAppsaholic-AppsaholicSDK.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EC554FD1CC4C702DF157BE9F /* Pods-perkAppsaholic-AppsaholicSDK-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-perkAppsaholic-AppsaholicSDK-Private.xcconfig"; sourceTree = "<group>"; };
-		EF25C9EBD2CEACC23BD70FF6 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/CoreMotion.framework; sourceTree = DEVELOPER_DIR; };
-		EF7701531ADAAC1F9539DAB3 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
-		F9DB0417EE594365CA17E016 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/AdSupport.framework; sourceTree = DEVELOPER_DIR; };
-		FAFFCA6ECD7A62A8706D5924 /* info.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = info.png; sourceTree = "<group>"; };
-		FD0707E5F46C80FF02480428 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		010EEC3F56CEE0E36C5071E3 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/CoreMedia.framework; sourceTree = DEVELOPER_DIR; };
+		08D603D6EB468C26742092F8 /* icon_refresh.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = icon_refresh.png; sourceTree = "<group>"; };
+		0CA550633C9EC94D7D911A7E /* Pods-perkAppsaholic-AppsaholicSDK-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-perkAppsaholic-AppsaholicSDK-Private.xcconfig"; sourceTree = "<group>"; };
+		0D8E8D558E7261B201FEA262 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		0EBBE51051A64894917B2834 /* logo_perk.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = logo_perk.png; sourceTree = "<group>"; };
+		18C67D3D002765335FABB253 /* Pods-perkAppsaholic-AppsaholicSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-perkAppsaholic-AppsaholicSDK.xcconfig"; sourceTree = "<group>"; };
+		22E013FC1FCA9CF093C778C3 /* Pods-perkAppsaholic-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-perkAppsaholic-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2CFD0C8438242D4EBB9CC09E /* info_circle.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = info_circle.png; sourceTree = "<group>"; };
+		342C023F3135158EB6E7D839 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/StoreKit.framework; sourceTree = DEVELOPER_DIR; };
+		3734935AEF45EDAA39C89208 /* Pods-perkAppsaholic-AppsaholicSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-perkAppsaholic-AppsaholicSDK-prefix.pch"; sourceTree = "<group>"; };
+		3AE37162F07D01CA09D3D54D /* libPods-perkAppsaholic-AppsaholicSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-perkAppsaholic-AppsaholicSDK.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BB6B347B59F5495AC39E41B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		462F93420446F4FCA2DB5F42 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4AAF6DBF55E063FEF1123A55 /* libPods-perkAppsaholic.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-perkAppsaholic.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D92BE267134E80618942E77 /* close_button.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = close_button.png; sourceTree = "<group>"; };
+		5E9267C65E7AF884E9C80771 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		64B01AF82E87C57D4FA369D6 /* icon_close.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = icon_close.png; sourceTree = "<group>"; };
+		6DE5322448F4CEDFAED47AE2 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		77840DBF09FDB16E8030184C /* FBAudienceNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBAudienceNetwork.framework; path = FacebookSDK/FBAudienceNetwork.framework; sourceTree = "<group>"; };
+		7C26EB63A733A036EBFF1506 /* Pods-perkAppsaholic-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-perkAppsaholic-environment.h"; sourceTree = "<group>"; };
+		7E0D2C5B521869040C250875 /* perk_star.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = perk_star.png; sourceTree = "<group>"; };
+		8034B9ED15B92BB225B10DC1 /* Pods-perkAppsaholic-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-perkAppsaholic-acknowledgements.plist"; sourceTree = "<group>"; };
+		84D761E686D04B723E12148B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		88A1731220AF0261D6690B5E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		95262C915C10AD1020D09A7D /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/MediaPlayer.framework; sourceTree = DEVELOPER_DIR; };
+		96AFF878AE16F7FB580E0AD2 /* Pods-perkAppsaholic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-perkAppsaholic.release.xcconfig"; sourceTree = "<group>"; };
+		983E747D83283873527FCF36 /* account.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = account.png; sourceTree = "<group>"; };
+		9BBD1D76BF1FEAE0DCD8ADB9 /* TempUnavailable.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = TempUnavailable.png; sourceTree = "<group>"; };
+		9C852B90CDD431E0AAD1AB4C /* Pods-perkAppsaholic-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-perkAppsaholic-resources.sh"; sourceTree = "<group>"; };
+		9D518CBAA37175EB5DA16DF2 /* info.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = info.png; sourceTree = "<group>"; };
+		A9C80D1BCA9204DAD4F5598C /* back.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		AEA590C299D5BA9C722E8EFD /* Reachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		B1B13D81CC979FD7EE47A773 /* libAppsaholicSDK-2.2.1.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = "libAppsaholicSDK-2.2.1.a"; sourceTree = "<group>"; };
+		B2AF3C8F9E31A0F2F7D75C25 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		C019BAAC084DB04143DCEB00 /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		C29B52F9AF4E3256689AE759 /* Pods-perkAppsaholic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-perkAppsaholic.debug.xcconfig"; sourceTree = "<group>"; };
+		C348649BEF36515D14090EEC /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/AdSupport.framework; sourceTree = DEVELOPER_DIR; };
+		C462580DAFC851EEC13D38A9 /* exclaimation.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = exclaimation.png; sourceTree = "<group>"; };
+		C719F610147A1A37A1633369 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/iAd.framework; sourceTree = DEVELOPER_DIR; };
+		C74D4A5455D230A6484C3B73 /* pollfish.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = pollfish.framework; path = PollfishSDK/pollfish.framework; sourceTree = "<group>"; };
+		CDC584A914FA4F8EEE63D2DD /* Pods-perkAppsaholic-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-perkAppsaholic-dummy.m"; sourceTree = "<group>"; };
+		D4E5280974F94EF1587F6417 /* AppsaholicSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AppsaholicSDK.h; sourceTree = "<group>"; };
+		DAE2E7B15B6DC3BC2D1E8D7B /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/CoreMotion.framework; sourceTree = DEVELOPER_DIR; };
+		DCE6C17D4142E50DAD294740 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/AudioToolbox.framework; sourceTree = DEVELOPER_DIR; };
+		DE44EDB27F8DA4BF2F60EA0A /* Pods-perkAppsaholic-AppsaholicSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-perkAppsaholic-AppsaholicSDK-dummy.m"; sourceTree = "<group>"; };
+		E3B3F7839BFFBA44D5B16E2B /* MBProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		E84063E91DD0FEBF917EB815 /* AerServSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AerServSDK.framework; path = "aerserv-ios-sdk-min/lib/AerServSDK.framework"; sourceTree = "<group>"; };
+		EA3C9EEAB7DC262F55B69FDE /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
+		FCD5794111ED17274EEF5128 /* Reachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5E64CE9BFC358414B1DA5463 /* Frameworks */ = {
+		42875DAF5814B9C7E1A42E9F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05D67ADCD45DE0A5555A3C00 /* AVFoundation.framework in Frameworks */,
-				CD419D94DD8B4851CB367672 /* AdSupport.framework in Frameworks */,
-				526FF7B8B72B495B60ABADDD /* AudioToolbox.framework in Frameworks */,
-				29A7A0C34A73B2667F2D052B /* CFNetwork.framework in Frameworks */,
-				F88D8F200CC2AA85D737DFBA /* CoreGraphics.framework in Frameworks */,
-				2A0DEB6C51E06AFFA6B5E3E6 /* CoreMedia.framework in Frameworks */,
-				83974E4B87B697F07924345C /* CoreMotion.framework in Frameworks */,
-				894EF9D24A00F80371E2597C /* CoreTelephony.framework in Frameworks */,
-				DD77144D1C5B62A34F72BE1C /* Foundation.framework in Frameworks */,
-				8D3AED0D74BCB9AB7DEBEA36 /* MediaPlayer.framework in Frameworks */,
-				E1A99F61580EDB6D6BEDADD2 /* QuartzCore.framework in Frameworks */,
-				356E0A2BB394EA6A4682CB72 /* StoreKit.framework in Frameworks */,
-				CBBB6F669224F6FCE24C3AD2 /* SystemConfiguration.framework in Frameworks */,
-				7393149976376C84968D0F6A /* UIKit.framework in Frameworks */,
-				6F992939EFA3AFE6E173B458 /* iAd.framework in Frameworks */,
+				5AC08691D1BACA22A85DF84A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9DD33C2F39CD757AD90CD3B7 /* Frameworks */ = {
+		C89E1822E7A8791153C74E8F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2AF667A43BE321B60A965600 /* Foundation.framework in Frameworks */,
+				5D9ACB9D72C5DD94F18FEA94 /* AVFoundation.framework in Frameworks */,
+				8EE4C0FAC02DEFC3E05C604C /* AdSupport.framework in Frameworks */,
+				318939164225F756F9EBB51E /* AudioToolbox.framework in Frameworks */,
+				4092AFC70EF4F97EBF1433CF /* CFNetwork.framework in Frameworks */,
+				5E7758EAC48023E9671299E4 /* CoreGraphics.framework in Frameworks */,
+				614D92035C59A1923C0EFAAE /* CoreMedia.framework in Frameworks */,
+				FCF625D0CB155034B37E89EF /* CoreMotion.framework in Frameworks */,
+				10D4016D6FA6FE208725D348 /* CoreTelephony.framework in Frameworks */,
+				88489C13A69E263DE475AE3A /* Foundation.framework in Frameworks */,
+				D807A77E6A4004D3AA897D1E /* MediaPlayer.framework in Frameworks */,
+				5A0CF17DBDD772972D61382B /* QuartzCore.framework in Frameworks */,
+				469FBBB393229E372868C89C /* StoreKit.framework in Frameworks */,
+				BC5A8C9B02AD65B6BD0B587D /* SystemConfiguration.framework in Frameworks */,
+				9343871C58304418C19DC8E8 /* UIKit.framework in Frameworks */,
+				3ACAAD9A2C4628F0F14E9481 /* iAd.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		152C9A336B379ACD19835C62 /* AppsaholicSDK */ = {
+		0C92B78DB42B36001BDDD4EB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7F15A202D450230E0A4C6728 /* AppsaholicSDK.h */,
-				A3AB462948CB384C2243EF62 /* MBProgressHUD.h */,
-				9998F74017C29D07AE7DB540 /* MBProgressHUD.m */,
-				320A9678A10AEE0DA54A3E7B /* Reachability.h */,
-				4B9EC5249F62BCADE69C0875 /* Reachability.m */,
-				FA855EE0F326C61403320113 /* Frameworks */,
-				A957E6F700A52E16938CF568 /* Resources */,
-				C6E4B93B37A0586014C8AB4F /* Support Files */,
+				B0CE4AB6661D7F2594AA89CE /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0D91D5B3C0674D515B697DF6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9BBD1D76BF1FEAE0DCD8ADB9 /* TempUnavailable.png */,
+				983E747D83283873527FCF36 /* account.png */,
+				A9C80D1BCA9204DAD4F5598C /* back.png */,
+				5D92BE267134E80618942E77 /* close_button.png */,
+				C462580DAFC851EEC13D38A9 /* exclaimation.png */,
+				64B01AF82E87C57D4FA369D6 /* icon_close.png */,
+				08D603D6EB468C26742092F8 /* icon_refresh.png */,
+				9D518CBAA37175EB5DA16DF2 /* info.png */,
+				2CFD0C8438242D4EBB9CC09E /* info_circle.png */,
+				0EBBE51051A64894917B2834 /* logo_perk.png */,
+				7E0D2C5B521869040C250875 /* perk_star.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		19F13AA2EA840C23547D5241 /* AppsaholicSDK */ = {
+			isa = PBXGroup;
+			children = (
+				D4E5280974F94EF1587F6417 /* AppsaholicSDK.h */,
+				C019BAAC084DB04143DCEB00 /* MBProgressHUD.h */,
+				E3B3F7839BFFBA44D5B16E2B /* MBProgressHUD.m */,
+				AEA590C299D5BA9C722E8EFD /* Reachability.h */,
+				FCD5794111ED17274EEF5128 /* Reachability.m */,
+				3D4A3703BD7830E7BFE41F3D /* Frameworks */,
+				9D507FF4E31284303ED42E89 /* Resources */,
+				B1B4A98A853B50B5C4E5868B /* Support Files */,
 			);
 			name = AppsaholicSDK;
 			path = ../../AppsaholicUniversalSDK;
 			sourceTree = "<group>";
 		};
-		2F04E6D38998249D6296BC9F /* Development Pods */ = {
+		266CED46DCA328250791A170 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				152C9A336B379ACD19835C62 /* AppsaholicSDK */,
+				19F13AA2EA840C23547D5241 /* AppsaholicSDK */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		3188399DFE6EA745C4F2C650 /* Products */ = {
+		3D4A3703BD7830E7BFE41F3D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C3B3DC2438E0FF663B886812 /* libPods-perkAppsaholic.a */,
-				E80846EFCD52AF8356CD811A /* libPods-perkAppsaholic-AppsaholicSDK.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		43E813D9F240DFC5165F608A /* Pods-perkAppsaholic */ = {
-			isa = PBXGroup;
-			children = (
-				58BF8EAE6FCB092BE1AD13A1 /* Pods-perkAppsaholic-acknowledgements.markdown */,
-				B8108CDA83569BF9A4E7B21E /* Pods-perkAppsaholic-acknowledgements.plist */,
-				28027E9ACDF651A1C2DA131B /* Pods-perkAppsaholic-dummy.m */,
-				CA20C1F9B6991EEC6914B6B7 /* Pods-perkAppsaholic-environment.h */,
-				8B45412D0A553E3AE6D5B5D5 /* Pods-perkAppsaholic-resources.sh */,
-				DA78F3064F45D5FF14006238 /* Pods-perkAppsaholic.debug.xcconfig */,
-				3D50E834F97DB4001E6852FA /* Pods-perkAppsaholic.release.xcconfig */,
-			);
-			name = "Pods-perkAppsaholic";
-			path = "Target Support Files/Pods-perkAppsaholic";
-			sourceTree = "<group>";
-		};
-		6DC784A2173F1A8F918937A3 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				8DD35740347E90D2D2F1C9C0 /* iOS */,
+				E84063E91DD0FEBF917EB815 /* AerServSDK.framework */,
+				77840DBF09FDB16E8030184C /* FBAudienceNetwork.framework */,
+				B1B13D81CC979FD7EE47A773 /* libAppsaholicSDK-2.2.1.a */,
+				C74D4A5455D230A6484C3B73 /* pollfish.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		8DD35740347E90D2D2F1C9C0 /* iOS */ = {
+		9D507FF4E31284303ED42E89 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				679E0FAC04643D9974E01894 /* AVFoundation.framework */,
-				F9DB0417EE594365CA17E016 /* AdSupport.framework */,
-				5A4CADCDE689114DB35F0A72 /* AudioToolbox.framework */,
-				68724AC3ADD81448F3C9B4ED /* CFNetwork.framework */,
-				D8DE565629D51F014447C184 /* CoreGraphics.framework */,
-				989770D32F825F8415657DC9 /* CoreMedia.framework */,
-				EF25C9EBD2CEACC23BD70FF6 /* CoreMotion.framework */,
-				EF7701531ADAAC1F9539DAB3 /* CoreTelephony.framework */,
-				58D7D319C11A2239B4975EAE /* Foundation.framework */,
-				0AF3656C323C512536D02C3F /* MediaPlayer.framework */,
-				DC8A9B6A2D000CBCE36D518D /* QuartzCore.framework */,
-				4A07C5BF0FE9F9A0B9490FEE /* StoreKit.framework */,
-				A5B9288220886A665A6CD7DF /* SystemConfiguration.framework */,
-				DA7A6B756664E36D5110FD46 /* UIKit.framework */,
-				770B4106BD2045F4CA488D9B /* iAd.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		A370DF3ACEB17277FAECD82F /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				6FA6563A19F51C106071A453 /* TempUnavailable.png */,
-				7EB1BCC963B403D23F382738 /* account.png */,
-				9EA27336BC606543DF0BFF05 /* back.png */,
-				AFA4603A5B97744FB482D9CE /* close_button.png */,
-				7B347C22ECCF3ADD76E2E8D3 /* exclaimation.png */,
-				20E45D420DD130BF18784782 /* icon_close.png */,
-				2E7F690D93B1CFE5C8EB4E0A /* icon_refresh.png */,
-				FAFFCA6ECD7A62A8706D5924 /* info.png */,
-				B62EB586FCA2D1528C067E11 /* info_circle.png */,
-				59986F2D4A515B0366BE71C0 /* logo_perk.png */,
-				B854A6AD082965B1A406B20E /* perk_star.png */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
-		A957E6F700A52E16938CF568 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				A370DF3ACEB17277FAECD82F /* Resources */,
+				0D91D5B3C0674D515B697DF6 /* Resources */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		C6E4B93B37A0586014C8AB4F /* Support Files */ = {
+		A544FEEAC1E4D933186D532F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9F1EB90B7E2DFA531486DA2E /* Pods-perkAppsaholic-AppsaholicSDK.xcconfig */,
-				EC554FD1CC4C702DF157BE9F /* Pods-perkAppsaholic-AppsaholicSDK-Private.xcconfig */,
-				28F08AC29792816E84025090 /* Pods-perkAppsaholic-AppsaholicSDK-dummy.m */,
-				ADCE2B0B593F695718179966 /* Pods-perkAppsaholic-AppsaholicSDK-prefix.pch */,
+				4AAF6DBF55E063FEF1123A55 /* libPods-perkAppsaholic.a */,
+				3AE37162F07D01CA09D3D54D /* libPods-perkAppsaholic-AppsaholicSDK.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A55C56952CF9E9FD9ED44593 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E6A79E8CA53E349AFAC43FB8 /* Pods-perkAppsaholic */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B0CE4AB6661D7F2594AA89CE /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5E9267C65E7AF884E9C80771 /* AVFoundation.framework */,
+				C348649BEF36515D14090EEC /* AdSupport.framework */,
+				DCE6C17D4142E50DAD294740 /* AudioToolbox.framework */,
+				6DE5322448F4CEDFAED47AE2 /* CFNetwork.framework */,
+				88A1731220AF0261D6690B5E /* CoreGraphics.framework */,
+				010EEC3F56CEE0E36C5071E3 /* CoreMedia.framework */,
+				DAE2E7B15B6DC3BC2D1E8D7B /* CoreMotion.framework */,
+				EA3C9EEAB7DC262F55B69FDE /* CoreTelephony.framework */,
+				3BB6B347B59F5495AC39E41B /* Foundation.framework */,
+				95262C915C10AD1020D09A7D /* MediaPlayer.framework */,
+				B2AF3C8F9E31A0F2F7D75C25 /* QuartzCore.framework */,
+				342C023F3135158EB6E7D839 /* StoreKit.framework */,
+				84D761E686D04B723E12148B /* SystemConfiguration.framework */,
+				0D8E8D558E7261B201FEA262 /* UIKit.framework */,
+				C719F610147A1A37A1633369 /* iAd.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		B1B4A98A853B50B5C4E5868B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				18C67D3D002765335FABB253 /* Pods-perkAppsaholic-AppsaholicSDK.xcconfig */,
+				0CA550633C9EC94D7D911A7E /* Pods-perkAppsaholic-AppsaholicSDK-Private.xcconfig */,
+				DE44EDB27F8DA4BF2F60EA0A /* Pods-perkAppsaholic-AppsaholicSDK-dummy.m */,
+				3734935AEF45EDAA39C89208 /* Pods-perkAppsaholic-AppsaholicSDK-prefix.pch */,
 			);
 			name = "Support Files";
 			path = "../perkAppsaholic/Pods/Target Support Files/Pods-perkAppsaholic-AppsaholicSDK";
 			sourceTree = "<group>";
 		};
-		C7855B56795805E5AD712D49 /* Targets Support Files */ = {
+		E6A79E8CA53E349AFAC43FB8 /* Pods-perkAppsaholic */ = {
 			isa = PBXGroup;
 			children = (
-				43E813D9F240DFC5165F608A /* Pods-perkAppsaholic */,
+				22E013FC1FCA9CF093C778C3 /* Pods-perkAppsaholic-acknowledgements.markdown */,
+				8034B9ED15B92BB225B10DC1 /* Pods-perkAppsaholic-acknowledgements.plist */,
+				CDC584A914FA4F8EEE63D2DD /* Pods-perkAppsaholic-dummy.m */,
+				7C26EB63A733A036EBFF1506 /* Pods-perkAppsaholic-environment.h */,
+				9C852B90CDD431E0AAD1AB4C /* Pods-perkAppsaholic-resources.sh */,
+				C29B52F9AF4E3256689AE759 /* Pods-perkAppsaholic.debug.xcconfig */,
+				96AFF878AE16F7FB580E0AD2 /* Pods-perkAppsaholic.release.xcconfig */,
 			);
-			name = "Targets Support Files";
+			name = "Pods-perkAppsaholic";
+			path = "Target Support Files/Pods-perkAppsaholic";
 			sourceTree = "<group>";
 		};
-		E489FDBE829D845FB10B75B4 = {
+		EF1BC1306349043E110AA11D = {
 			isa = PBXGroup;
 			children = (
-				FD0707E5F46C80FF02480428 /* Podfile */,
-				2F04E6D38998249D6296BC9F /* Development Pods */,
-				6DC784A2173F1A8F918937A3 /* Frameworks */,
-				3188399DFE6EA745C4F2C650 /* Products */,
-				C7855B56795805E5AD712D49 /* Targets Support Files */,
+				462F93420446F4FCA2DB5F42 /* Podfile */,
+				266CED46DCA328250791A170 /* Development Pods */,
+				0C92B78DB42B36001BDDD4EB /* Frameworks */,
+				A544FEEAC1E4D933186D532F /* Products */,
+				A55C56952CF9E9FD9ED44593 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		FA855EE0F326C61403320113 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				99E11B5CBA09DBD08F109FEE /* AerServSDK.framework */,
-				9FBB76293E4EE691B1F0D1DD /* FBAudienceNetwork.framework */,
-				794A0BCF23DF480CB6667EBF /* libAppsaholicSDK-2.2.1.a */,
-				64F86D609E788CDC956388AD /* pollfish.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		85530CBF23257BB3E5BC4546 /* Headers */ = {
+		78FB44FBE81B13FBD27CB0EB /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				19AC0777057980ABD654D2D9 /* AppsaholicSDK.h in Headers */,
-				DE52E781BD866831D28649FC /* MBProgressHUD.h in Headers */,
-				D06D068888F72A114E1687D5 /* Reachability.h in Headers */,
+				D64FBA825B2FC2EBEA725F75 /* AppsaholicSDK.h in Headers */,
+				836A5E0D4E571F87725FCC02 /* MBProgressHUD.h in Headers */,
+				61ED813D7F59BF25853753F5 /* Reachability.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		06A292D3604E07792E5A15EC /* Pods-perkAppsaholic */ = {
+		026D5EB8AAC34789731266A3 /* Pods-perkAppsaholic-AppsaholicSDK */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B62681603F6011D0300D1A15 /* Build configuration list for PBXNativeTarget "Pods-perkAppsaholic" */;
+			buildConfigurationList = 6F4BE1F8A2196338EADF8DCD /* Build configuration list for PBXNativeTarget "Pods-perkAppsaholic-AppsaholicSDK" */;
 			buildPhases = (
-				55E6892AF59077A97CAD4799 /* Sources */,
-				9DD33C2F39CD757AD90CD3B7 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				993643B91B469BA192677886 /* PBXTargetDependency */,
-			);
-			name = "Pods-perkAppsaholic";
-			productName = "Pods-perkAppsaholic";
-			productReference = C3B3DC2438E0FF663B886812 /* libPods-perkAppsaholic.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		7EB21E3D618728B498D9FC03 /* Pods-perkAppsaholic-AppsaholicSDK */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C352A8E2C6C9812E95AE9489 /* Build configuration list for PBXNativeTarget "Pods-perkAppsaholic-AppsaholicSDK" */;
-			buildPhases = (
-				D99A019EC1B9E8BF3A1CDFDE /* Sources */,
-				5E64CE9BFC358414B1DA5463 /* Frameworks */,
-				85530CBF23257BB3E5BC4546 /* Headers */,
+				4E19CF037C5A6694E2B7B7AA /* Sources */,
+				C89E1822E7A8791153C74E8F /* Frameworks */,
+				78FB44FBE81B13FBD27CB0EB /* Headers */,
 			);
 			buildRules = (
 			);
@@ -321,85 +304,136 @@
 			);
 			name = "Pods-perkAppsaholic-AppsaholicSDK";
 			productName = "Pods-perkAppsaholic-AppsaholicSDK";
-			productReference = E80846EFCD52AF8356CD811A /* libPods-perkAppsaholic-AppsaholicSDK.a */;
+			productReference = 3AE37162F07D01CA09D3D54D /* libPods-perkAppsaholic-AppsaholicSDK.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C787479736551C22E2440595 /* Pods-perkAppsaholic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00A407354A2F42225D78EF5D /* Build configuration list for PBXNativeTarget "Pods-perkAppsaholic" */;
+			buildPhases = (
+				2211857F0765FEA269BCCEFE /* Sources */,
+				42875DAF5814B9C7E1A42E9F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29F88373E30C9655ADCC88A7 /* PBXTargetDependency */,
+			);
+			name = "Pods-perkAppsaholic";
+			productName = "Pods-perkAppsaholic";
+			productReference = 4AAF6DBF55E063FEF1123A55 /* libPods-perkAppsaholic.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		CCB49530DD6DC20F0AB12036 /* Project object */ = {
+		FDC6EDE4F6361852C308B528 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0640;
 			};
-			buildConfigurationList = 308F10EC5E0D5280B2C7AD05 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = BFAAB975D3211DA412D87B6B /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = E489FDBE829D845FB10B75B4;
-			productRefGroup = 3188399DFE6EA745C4F2C650 /* Products */;
+			mainGroup = EF1BC1306349043E110AA11D;
+			productRefGroup = A544FEEAC1E4D933186D532F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				06A292D3604E07792E5A15EC /* Pods-perkAppsaholic */,
-				7EB21E3D618728B498D9FC03 /* Pods-perkAppsaholic-AppsaholicSDK */,
+				C787479736551C22E2440595 /* Pods-perkAppsaholic */,
+				026D5EB8AAC34789731266A3 /* Pods-perkAppsaholic-AppsaholicSDK */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		55E6892AF59077A97CAD4799 /* Sources */ = {
+		2211857F0765FEA269BCCEFE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BAD27072A63DC66C0FFD4083 /* Pods-perkAppsaholic-dummy.m in Sources */,
+				2CBDB71357A8C503AEA3418C /* Pods-perkAppsaholic-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D99A019EC1B9E8BF3A1CDFDE /* Sources */ = {
+		4E19CF037C5A6694E2B7B7AA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				618B46BC8D86DE38D58BE109 /* MBProgressHUD.m in Sources */,
-				7FCE01C5B84951A1561D41C2 /* Pods-perkAppsaholic-AppsaholicSDK-dummy.m in Sources */,
-				9188CFAA58BC6392F7AE8334 /* Reachability.m in Sources */,
+				209527E1F8353B4D3F45D2CD /* MBProgressHUD.m in Sources */,
+				9AD37913142BA07EA7AAAA1E /* Pods-perkAppsaholic-AppsaholicSDK-dummy.m in Sources */,
+				3D525682B64DE64B12441CCB /* Reachability.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		993643B91B469BA192677886 /* PBXTargetDependency */ = {
+		29F88373E30C9655ADCC88A7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-perkAppsaholic-AppsaholicSDK";
-			target = 7EB21E3D618728B498D9FC03 /* Pods-perkAppsaholic-AppsaholicSDK */;
-			targetProxy = EC15796C296B1101A8EB763C /* PBXContainerItemProxy */;
+			target = 026D5EB8AAC34789731266A3 /* Pods-perkAppsaholic-AppsaholicSDK */;
+			targetProxy = D77F5CA43124F3FFBA3F2C3F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1863B4BD29D0559586F6E1F2 /* Debug */ = {
+		5C4CEE83D4B275E039C52CD5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DA78F3064F45D5FF14006238 /* Pods-perkAppsaholic.debug.xcconfig */;
+			baseConfigurationReference = 0CA550633C9EC94D7D911A7E /* Pods-perkAppsaholic-AppsaholicSDK-Private.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-perkAppsaholic-AppsaholicSDK/Pods-perkAppsaholic-AppsaholicSDK-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
-		669DCC60C2636D8965F5D53B /* Release */ = {
+		A5CD8E244105F06CFFF760CA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3D50E834F97DB4001E6852FA /* Pods-perkAppsaholic.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC7293035B4A97D0936519A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96AFF878AE16F7FB580E0AD2 /* Pods-perkAppsaholic.release.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
@@ -413,7 +447,39 @@
 			};
 			name = Release;
 		};
-		D066D2FE8C74A3733C6B5144 /* Debug */ = {
+		CE90E60419B9CEC0DCF8EE18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CA550633C9EC94D7D911A7E /* Pods-perkAppsaholic-AppsaholicSDK-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-perkAppsaholic-AppsaholicSDK/Pods-perkAppsaholic-AppsaholicSDK-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		D7DE5E36EA9CE3CFB9E1BCA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C29B52F9AF4E3256689AE759 /* Pods-perkAppsaholic.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		ED9B2A16CD9ECAFBF36F011E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -452,103 +518,37 @@
 			};
 			name = Debug;
 		};
-		D14913D25387B3B773BB766F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EC554FD1CC4C702DF157BE9F /* Pods-perkAppsaholic-AppsaholicSDK-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-perkAppsaholic-AppsaholicSDK/Pods-perkAppsaholic-AppsaholicSDK-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		E816686AD3FCCAE3D54345E7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EC554FD1CC4C702DF157BE9F /* Pods-perkAppsaholic-AppsaholicSDK-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-perkAppsaholic-AppsaholicSDK/Pods-perkAppsaholic-AppsaholicSDK-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		EE45C6D6D110F0D39DD5D5C8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		308F10EC5E0D5280B2C7AD05 /* Build configuration list for PBXProject "Pods" */ = {
+		00A407354A2F42225D78EF5D /* Build configuration list for PBXNativeTarget "Pods-perkAppsaholic" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D066D2FE8C74A3733C6B5144 /* Debug */,
-				EE45C6D6D110F0D39DD5D5C8 /* Release */,
+				D7DE5E36EA9CE3CFB9E1BCA6 /* Debug */,
+				AC7293035B4A97D0936519A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B62681603F6011D0300D1A15 /* Build configuration list for PBXNativeTarget "Pods-perkAppsaholic" */ = {
+		6F4BE1F8A2196338EADF8DCD /* Build configuration list for PBXNativeTarget "Pods-perkAppsaholic-AppsaholicSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1863B4BD29D0559586F6E1F2 /* Debug */,
-				669DCC60C2636D8965F5D53B /* Release */,
+				5C4CEE83D4B275E039C52CD5 /* Debug */,
+				CE90E60419B9CEC0DCF8EE18 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C352A8E2C6C9812E95AE9489 /* Build configuration list for PBXNativeTarget "Pods-perkAppsaholic-AppsaholicSDK" */ = {
+		BFAAB975D3211DA412D87B6B /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E816686AD3FCCAE3D54345E7 /* Debug */,
-				D14913D25387B3B773BB766F /* Release */,
+				ED9B2A16CD9ECAFBF36F011E /* Debug */,
+				A5CD8E244105F06CFFF760CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = CCB49530DD6DC20F0AB12036 /* Project object */;
+	rootObject = FDC6EDE4F6361852C308B528 /* Project object */;
 }

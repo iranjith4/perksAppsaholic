@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "MWFeedItem.h"
+#import "JBBarChartView.h"
 
 @protocol ArticlesDelegate <NSObject>
 

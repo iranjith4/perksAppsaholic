@@ -10,7 +10,8 @@
 #import "Utilities.h"
 #import "AppsaholicSDK.h"
 
-#define ARTICLE_PAGE_READ_TIME 3
+
+#define ARTICLE_PAGE_READ_TIME 10
 
 @implementation ArticleScrollView{
     MWFeedItem *feedItem;
@@ -67,6 +68,8 @@
     [self addArticleContent];
     [self addArticleContent];
     [self addArticleContent];
+    
+    [self addCharts];
 }
 
 
@@ -113,7 +116,7 @@
     author.text = [Utilities decodedString:feedItem.content ? feedItem.content : @"[No Content]"];
     [author sizeToFit];
     [self addSubview:author];
-    yPos += author.frame.size.height + 5;
+    yPos += author.frame.size.height + 20;
 }
 
 - (void)loadEnclosures{
@@ -123,6 +126,50 @@
             [self loadVideoFor:enclosure[@"url"]];
         }
     }
+}
+
+- (void)addCharts{
+//    PNCircleChart * circleChart = [[PNCircleChart alloc] initWithFrame:CGRectMake(0, yPos, self.frame.size.width, self.frame.size.width) total:[NSNumber numberWithInt:100] current:[NSNumber numberWithInt:45] clockwise:YES];
+//    circleChart.backgroundColor = [UIColor clearColor];
+//    [circleChart setStrokeColor:PNGreen];
+//    [circleChart strokeChart];
+//    [self addSubview:circleChart];
+    
+//    JBBarChartView *barChartView = [[JBBarChartView alloc] initWithFrame:CGRectMake(0, yPos, self.frame.size.width * 0.90, self.frame.size.width * 0.90)];
+//    barChartView.dataSource = self;
+//    barChartView.delegate = self;
+//    [self addSubview:barChartView];
+//    
+//    [barChartView reloadData];
+    
+    
+    UILabel *page = [[UILabel alloc] initWithFrame:CGRectMake(10, yPos, self.frame.size.width, self.frame.size.height)];
+    page.font = [UIFont fontWithName:FONT_BOLD size:14];
+    page.text = [NSString stringWithFormat:@"Read Status"];
+    page.textColor = [UIColor grayColor];
+    [page sizeToFit];
+    [self addSubview:page];
+    yPos += page.frame.size.height + 5;
+    
+    for (int i = 0; i < numberOfPages; i++) {
+        
+        UILabel *page = [[UILabel alloc] initWithFrame:CGRectMake(10, yPos, self.frame.size.width, self.frame.size.height)];
+        page.font = [UIFont fontWithName:FONT_BOLD size:10];
+        page.text = [NSString stringWithFormat:@"Page %d",i+1];
+        page.textColor = [UIColor grayColor];
+        [page sizeToFit];
+        [self addSubview:page];
+        yPos += page.frame.size.height + 3;
+        
+        UIProgressView *progress = [[UIProgressView alloc] initWithFrame:CGRectMake(10, yPos, self.frame.size.width - 20, 5)];
+        progress.progress = [[timerArray objectAtIndex:i] intValue] / ARTICLE_PAGE_READ_TIME;
+        progress.progressTintColor = [UIColor colorWithRed:1.000 green:0.451 blue:0.148 alpha:1.000];
+        progress.trackTintColor = [UIColor colorWithWhite:0.973 alpha:1.000];
+        progress.tag = i;
+        [self addSubview:progress];
+        yPos += progress.frame.size.height + 1;
+    }
+    
 }
 
 #pragma mark - Enclosure thing
@@ -212,6 +259,7 @@
             timeToAdd = getTime;
         }
         [timerArray setObject:[NSNumber numberWithInt:timeToAdd] atIndexedSubscript:index];
+        [self updateProgress];
        // NSLog(@"time %d added at %d",timeToAdd,index);
     }else if (getTime == ARTICLE_PAGE_READ_TIME){
         //Do Nothing
@@ -236,5 +284,36 @@
 - (void)addAppsPoints{
     [self.del addpointsForArticles];
 }
+
+- (void)updateProgress{
+    for (UIProgressView *view in self.subviews) {
+        if ([view isKindOfClass:[UIProgressView class]]) {
+            int tag = (int)view.tag;
+                view.progress = (float)[[timerArray objectAtIndex:tag] intValue] / ARTICLE_PAGE_READ_TIME;
+        }
+    }
+}
+
+#pragma mark - Bar Chart
+//
+//- (NSUInteger)numberOfBarsInBarChartView:(JBBarChartView *)barChartView
+//{
+//    return numberOfPages;
+//}
+//
+//- (CGFloat)barChartView:(JBBarChartView *)barChartView heightForBarViewAtIndex:(NSUInteger)index
+//{
+//    return 100; // height of bar at index
+//}
+//
+//-(UIView *)barChartView:(JBBarChartView *)barChartView barViewAtIndex:(NSUInteger)index{
+//    UIView *view = [[UIView alloc] init];
+//    view.backgroundColor = [UIColor grayColor];
+//    return view;
+//}
+//
+//- (UIColor *)barChartView:(JBBarChartView *)barChartView colorForBarViewAtIndex:(NSUInteger)index{
+//    return [UIColor orangeColor];
+//}
 
 @end

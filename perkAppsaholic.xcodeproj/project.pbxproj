@@ -106,6 +106,7 @@
 		C6E0D20D1B07D61E00C18CA2 /* vg_mute_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vg_mute_on.png; sourceTree = "<group>"; };
 		C6E0D20E1B07D61E00C18CA2 /* vg_timer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vg_timer.png; sourceTree = "<group>"; };
 		C6E0D20F1B07D61E00C18CA2 /* VungleSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = VungleSDK.framework; sourceTree = "<group>"; };
+		C6E0D21D1B07E36700C18CA2 /* Charts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Charts.framework; path = "../../../../Downloads/ios-charts-master/Charts/build/Debug-iphoneos/Charts.framework"; sourceTree = "<group>"; };
 		C6F0184D1B07C2EB006D497C /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		C6F0184F1B07C2F2006D497C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		C6F018FF1B07CEC4006D497C /* MWFeedParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWFeedParser.h; sourceTree = "<group>"; };
@@ -169,6 +170,7 @@
 		5D4ED9488E172375C3A1889B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C6E0D21D1B07E36700C18CA2 /* Charts.framework */,
 				F42C8077D9E774F6654E7640 /* libPods-perkAppsaholic.a */,
 			);
 			name = Frameworks;
@@ -641,6 +643,7 @@
 					"$(PROJECT_DIR)/perkAppsaholic/AppsaholicUniversalSDK/PollfishSDK",
 					"$(PROJECT_DIR)/perkAppsaholic/AppsaholicUniversalSDK/VungleSDK.embeddedframework",
 					"$(PROJECT_DIR)/VungleSDK.embeddedframework",
+					"/Users/ranjith/Downloads/ios-charts-master/Charts/build/Debug-iphoneos",
 				);
 				INFOPLIST_FILE = perkAppsaholic/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
@@ -673,6 +676,7 @@
 					"$(PROJECT_DIR)/perkAppsaholic/AppsaholicUniversalSDK/PollfishSDK",
 					"$(PROJECT_DIR)/perkAppsaholic/AppsaholicUniversalSDK/VungleSDK.embeddedframework",
 					"$(PROJECT_DIR)/VungleSDK.embeddedframework",
+					"/Users/ranjith/Downloads/ios-charts-master/Charts/build/Debug-iphoneos",
 				);
 				INFOPLIST_FILE = perkAppsaholic/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
