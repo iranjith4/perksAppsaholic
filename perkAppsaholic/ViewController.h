@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MWFeedParser.h" //Just testing
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <MWFeedParserDelegate>
 
 
 @end

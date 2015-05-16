@@ -7,15 +7,21 @@
 //
 
 #import "ViewController.h"
+#import "NSString+HTML.h"
+#import "ArticleListing.h"
 
 @interface ViewController ()
 
 @end
 
-@implementation ViewController
+@implementation ViewController{
+    MWFeedParser *feedParser;
+    UILabel *webview;
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self testFeedParsing];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -23,5 +29,13 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+-(void)testFeedParsing {
+    ArticleListing *articleList = [[ArticleListing alloc] initWithNibName:nil bundle:nil];
+    [articleList loadControllerWithArtile:@"http://newsrss.bbc.co.uk/rss/newsonline_world_edition/americas/rss.xml"];
+    [self.navigationController pushViewController:articleList animated:NO];
+}
+
+
 
 @end
