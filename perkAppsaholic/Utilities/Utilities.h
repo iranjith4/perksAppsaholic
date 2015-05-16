@@ -8,17 +8,20 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
+#import "MWFeedItem.h"
+#import "NSString+HTML.h"
 
 // Fonts
-#define FONT_REGULAR @"AppleSDGothicNeo-Regular"
+#define FONT_REGULAR @"Avenir-Book"
 #define FONT_THIN @"AppleSDGothicNeo-Thin"
 #define FONT_LIGHT @"AppleSDGothicNeo-Light"
 #define FONT_MEDIUM @"AppleSDGothicNeo-Medium"
-#define FONT_SEMIBOLD @"AppleSDGothicNeo-SemiBold"
+#define FONT_SEMIBOLD @"Avenir-Heavy"
 #define FONT_BOLD @"AppleSDGothicNeo-Bold"
 
 @interface Utilities : NSObject
 
 + (CGFloat)heightForLabel:(NSString *)string inRect:(CGRect) rect withFont:(UIFont *)font lines:(int)lines;
 + (NSString *)getReadingTimeFor:(NSString *)text;
++ (NSString *)decodedString:(NSString *)feed;
 @end

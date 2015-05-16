@@ -32,7 +32,7 @@
 
 -(void)testFeedParsing {
     ArticleListing *articleList = [[ArticleListing alloc] initWithNibName:nil bundle:nil];
-    [articleList loadControllerWithArtile:@"http://newsrss.bbc.co.uk/rss/newsonline_world_edition/americas/rss.xml"];
+    [articleList loadControllerWithArtile:@"https://www.yahoo.com/tech/rss"];
     [self.navigationController pushViewController:articleList animated:NO];
 }
 

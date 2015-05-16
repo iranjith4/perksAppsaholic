@@ -31,7 +31,7 @@
         self.heading.font = [UIFont fontWithName:FONT_BOLD size:18];
         [self addSubview:self.heading];
     }
-    self.heading.text = feedItem.title;
+    self.heading.text = [Utilities decodedString:feedItem.title];
     [self.heading sizeToFit];
     frame = self.heading.frame;
     frame.origin.y = yPos;
@@ -46,7 +46,7 @@
         self.summary.textAlignment = NSTextAlignmentLeft;
         [self addSubview:self.summary];
     }
-    self.summary.text = feedItem.summary;
+    self.summary.text = [Utilities decodedString:feedItem.summary];
     [self.summary sizeToFit];
     frame = self.summary.frame;
     frame.origin.y = yPos;

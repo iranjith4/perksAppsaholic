@@ -10,6 +10,7 @@
 #import "ArticleListingTable.h"
 #import "ArticleListingCell.h"
 #import "Utilities.h"
+#import "ArticleDetailViewController.h"
 
 @interface ArticleListing (){
     NSMutableArray *articlesArray;
@@ -107,6 +108,7 @@
         articleCell = [[ArticleListingCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"cell"];
     }
     [articleCell initUIFor:item];
+    NSLog(@"TT : %@",item.content);
     cell = articleCell;
     return cell;
 }
@@ -135,9 +137,9 @@
 //    
 //    height += [Utilities heightForLabel:item.summary inRect:summary.frame withFont:[UIFont fontWithName:FONT_BOLD size:18] lines:0];
     
-    yPos += [Utilities heightForLabel:item.title inRect:CGRectMake(xPos, yPos, self.view.frame.size.width - xPos - 5, 600) withFont:[UIFont fontWithName:FONT_BOLD size:18] lines:0];
+    yPos += [Utilities heightForLabel:[Utilities decodedString:item.title] inRect:CGRectMake(xPos, yPos, self.view.frame.size.width - xPos - 5, 600) withFont:[UIFont fontWithName:FONT_BOLD size:18] lines:0];
     
-    yPos += [Utilities heightForLabel:item.summary inRect:CGRectMake(xPos, yPos, self.view.frame.size.width - xPos - 5, 600) withFont:[UIFont fontWithName:FONT_BOLD size:13] lines:0];
+    yPos += [Utilities heightForLabel:[Utilities decodedString:item.summary] inRect:CGRectMake(xPos, yPos, self.view.frame.size.width - xPos - 5, 600) withFont:[UIFont fontWithName:FONT_BOLD size:13] lines:0];
     
     yPos += 10;
     //  yPos += [ImageResize changeSpaceHeightToMyDevice:IPHONE5_SIZE :5];
@@ -147,13 +149,17 @@
     //Button Height
     
     CGSize size = CGSizeMake(self.view.frame.size.width, yPos);
-    
-    
-    NSLog(@"sizeee : %f %f",size.width,size.height);
     return size.height + 40;
 
     
    // return height;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    MWFeedItem *feed = [dataArray objectAtIndex:indexPath.row];
+    ArticleDetailViewController *articleDetail = [[ArticleDetailViewController alloc] initWithNibName:nil bundle:nil];
+    [articleDetail loadUIForFeed:feed];
+    [self.navigationController pushViewController:articleDetail animated:YES];
 }
 
 

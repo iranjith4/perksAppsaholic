@@ -18,6 +18,8 @@
 		C6240FE61B0743C8005820C5 /* ArticleListingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6240FE51B0743C8005820C5 /* ArticleListingCell.xib */; };
 		C6240FE91B074437005820C5 /* ArticleListingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C6240FE81B074437005820C5 /* ArticleListingCell.m */; };
 		C6240FED1B0748E9005820C5 /* Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = C6240FEC1B0748E9005820C5 /* Utilities.m */; };
+		C6240FF61B075FE5005820C5 /* ArticleDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6240FF51B075FE5005820C5 /* ArticleDetailViewController.m */; };
+		C6240FF91B076036005820C5 /* ArticleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = C6240FF81B076036005820C5 /* ArticleScrollView.m */; };
 		C63311DC1B06573A0099A6EC /* AerServSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C63311B61B06573A0099A6EC /* AerServSDK.framework */; };
 		C63311DD1B06573A0099A6EC /* VERSION in Resources */ = {isa = PBXBuildFile; fileRef = C63311B71B06573A0099A6EC /* VERSION */; };
 		C63311DE1B06573A0099A6EC /* AppsaholicSDK.podspec in Resources */ = {isa = PBXBuildFile; fileRef = C63311B91B06573A0099A6EC /* AppsaholicSDK.podspec */; };
@@ -101,6 +103,10 @@
 		C6240FE81B074437005820C5 /* ArticleListingCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArticleListingCell.m; sourceTree = "<group>"; };
 		C6240FEB1B0748E9005820C5 /* Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utilities.h; sourceTree = "<group>"; };
 		C6240FEC1B0748E9005820C5 /* Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utilities.m; sourceTree = "<group>"; };
+		C6240FF41B075FE5005820C5 /* ArticleDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArticleDetailViewController.h; sourceTree = "<group>"; };
+		C6240FF51B075FE5005820C5 /* ArticleDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArticleDetailViewController.m; sourceTree = "<group>"; };
+		C6240FF71B076036005820C5 /* ArticleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArticleScrollView.h; sourceTree = "<group>"; };
+		C6240FF81B076036005820C5 /* ArticleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArticleScrollView.m; sourceTree = "<group>"; };
 		C63311B61B06573A0099A6EC /* AerServSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AerServSDK.framework; sourceTree = "<group>"; };
 		C63311B71B06573A0099A6EC /* VERSION */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = VERSION; sourceTree = "<group>"; };
 		C63311B81B06573A0099A6EC /* AppsaholicSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppsaholicSDK.h; sourceTree = "<group>"; };
@@ -198,6 +204,8 @@
 			children = (
 				C606AE4E1B0734050039CA5B /* ArticleListing.h */,
 				C606AE4F1B0734050039CA5B /* ArticleListing.m */,
+				C6240FF41B075FE5005820C5 /* ArticleDetailViewController.h */,
+				C6240FF51B075FE5005820C5 /* ArticleDetailViewController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -217,6 +225,8 @@
 				C6240FE51B0743C8005820C5 /* ArticleListingCell.xib */,
 				C6240FE71B074437005820C5 /* ArticleListingCell.h */,
 				C6240FE81B074437005820C5 /* ArticleListingCell.m */,
+				C6240FF71B076036005820C5 /* ArticleScrollView.h */,
+				C6240FF81B076036005820C5 /* ArticleScrollView.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -556,9 +566,11 @@
 			files = (
 				C6B8C9531B064BBC00B9B9CF /* AppDelegate.m in Sources */,
 				C6B8C9561B064BBC00B9B9CF /* perkAppsaholic.xcdatamodeld in Sources */,
+				C6240FF61B075FE5005820C5 /* ArticleDetailViewController.m in Sources */,
 				C6240FED1B0748E9005820C5 /* Utilities.m in Sources */,
 				C606AE491B0721290039CA5B /* NSString+HTML.m in Sources */,
 				C6240FE91B074437005820C5 /* ArticleListingCell.m in Sources */,
+				C6240FF91B076036005820C5 /* ArticleScrollView.m in Sources */,
 				C606AE421B07211E0039CA5B /* MWFeedParser.m in Sources */,
 				C606AE441B07211E0039CA5B /* MWFeedItem.m in Sources */,
 				C606AE4D1B07216A0039CA5B /* GTMNSString+HTML.m in Sources */,
