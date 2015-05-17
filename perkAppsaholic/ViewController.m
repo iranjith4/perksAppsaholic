@@ -50,7 +50,7 @@
 
 -(void)testFeedParsing {
     ArticleListing *articleList = [[ArticleListing alloc] initWithNibName:nil bundle:nil];
-    [articleList loadControllerWithArtile:@"http://9to5mac.com/feed/"];
+    [articleList loadControllerWithArtile:@"http://blog.perk.com/rss"];
     [self.navigationController pushViewController:articleList animated:NO];
 }
 
