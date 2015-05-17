@@ -51,6 +51,10 @@
     //Setting the number of Pages to 4
     numberOfPages = [self getNumberOfPages];
     
+    for (int i = 0; i < numberOfPages+1; i++) {
+        [timerArray addObject:[NSNumber numberWithInt:0]];
+    }
+    
     // Scroll Settings
     self.scrollEnabled = YES;
     currentPage = 0;
@@ -62,9 +66,7 @@
     
     //Adding Timer Array
     
-    for (int i = 0; i < numberOfPages; i++) {
-        [timerArray addObject:[NSNumber numberWithInt:0]];
-    }
+    
     
     // Arrangement of UIs
     [self loadHeading];
@@ -258,6 +260,12 @@
 - (void) saveTimerData:(NSTimer *)tm{
     int timeToAdd;
     int index = [tm.userInfo intValue];
+    
+    //Exception Handled here
+    if (index >= timerArray.count) {
+        
+    }
+    NSLog(@"INDEX %d",index);
     int getTime = [[timerArray objectAtIndex:index] intValue];
     if (getTime < ARTICLE_PAGE_READ_TIME) {
         getTime = getTime + ARTICLE_PAGE_READ_TIME - [self getTimeDiff:[tm.fireDate timeIntervalSinceReferenceDate]];

@@ -27,8 +27,8 @@
     ((AppsaholicSDK*)[AppsaholicSDK sharedManager]).rootViewController = self;
     [self startAppsaholicSession];
     [super viewDidLoad];
-   // [self testFeedParsing];
-    [self loadFeedList];
+    [self testFeedParsing];
+    //[self loadFeedList];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -50,7 +50,7 @@
 
 -(void)testFeedParsing {
     ArticleListing *articleList = [[ArticleListing alloc] initWithNibName:nil bundle:nil];
-    [articleList loadControllerWithArtile:@"http://feeds.arstechnica.com/arstechnica/apple/"];
+    [articleList loadControllerWithArtile:@"http://9to5mac.com/feed/"];
     [self.navigationController pushViewController:articleList animated:NO];
 }
 
