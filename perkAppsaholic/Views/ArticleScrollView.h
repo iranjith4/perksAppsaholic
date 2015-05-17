@@ -8,7 +8,6 @@
 
 #import <UIKit/UIKit.h>
 #import "MWFeedItem.h"
-#import "JBBarChartView.h"
 
 @protocol ArticlesDelegate <NSObject>
 
@@ -20,6 +19,7 @@
 @interface ArticleScrollView : UIScrollView<UIScrollViewDelegate>
 
 - (instancetype)initWithFrame:(CGRect)frame andFeedItem:(MWFeedItem *)feed;
+- (void)disableTimers;
 
 @property (nonatomic, assign) id<ArticlesDelegate> del;
 

@@ -7,296 +7,462 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		10D4016D6FA6FE208725D348 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA3C9EEAB7DC262F55B69FDE /* CoreTelephony.framework */; };
-		209527E1F8353B4D3F45D2CD /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = E3B3F7839BFFBA44D5B16E2B /* MBProgressHUD.m */; };
-		2CBDB71357A8C503AEA3418C /* Pods-perkAppsaholic-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC584A914FA4F8EEE63D2DD /* Pods-perkAppsaholic-dummy.m */; };
-		318939164225F756F9EBB51E /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCE6C17D4142E50DAD294740 /* AudioToolbox.framework */; };
-		3ACAAD9A2C4628F0F14E9481 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C719F610147A1A37A1633369 /* iAd.framework */; };
-		3D525682B64DE64B12441CCB /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD5794111ED17274EEF5128 /* Reachability.m */; };
-		4092AFC70EF4F97EBF1433CF /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DE5322448F4CEDFAED47AE2 /* CFNetwork.framework */; };
-		469FBBB393229E372868C89C /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 342C023F3135158EB6E7D839 /* StoreKit.framework */; };
-		5A0CF17DBDD772972D61382B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2AF3C8F9E31A0F2F7D75C25 /* QuartzCore.framework */; };
-		5AC08691D1BACA22A85DF84A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BB6B347B59F5495AC39E41B /* Foundation.framework */; };
-		5D9ACB9D72C5DD94F18FEA94 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9267C65E7AF884E9C80771 /* AVFoundation.framework */; };
-		5E7758EAC48023E9671299E4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88A1731220AF0261D6690B5E /* CoreGraphics.framework */; };
-		614D92035C59A1923C0EFAAE /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 010EEC3F56CEE0E36C5071E3 /* CoreMedia.framework */; };
-		61ED813D7F59BF25853753F5 /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = AEA590C299D5BA9C722E8EFD /* Reachability.h */; };
-		836A5E0D4E571F87725FCC02 /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = C019BAAC084DB04143DCEB00 /* MBProgressHUD.h */; };
-		88489C13A69E263DE475AE3A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BB6B347B59F5495AC39E41B /* Foundation.framework */; };
-		8EE4C0FAC02DEFC3E05C604C /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C348649BEF36515D14090EEC /* AdSupport.framework */; };
-		9343871C58304418C19DC8E8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D8E8D558E7261B201FEA262 /* UIKit.framework */; };
-		9AD37913142BA07EA7AAAA1E /* Pods-perkAppsaholic-AppsaholicSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DE44EDB27F8DA4BF2F60EA0A /* Pods-perkAppsaholic-AppsaholicSDK-dummy.m */; };
-		BC5A8C9B02AD65B6BD0B587D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84D761E686D04B723E12148B /* SystemConfiguration.framework */; };
-		D64FBA825B2FC2EBEA725F75 /* AppsaholicSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = D4E5280974F94EF1587F6417 /* AppsaholicSDK.h */; };
-		D807A77E6A4004D3AA897D1E /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95262C915C10AD1020D09A7D /* MediaPlayer.framework */; };
-		FCF625D0CB155034B37E89EF /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAE2E7B15B6DC3BC2D1E8D7B /* CoreMotion.framework */; };
+		00E4FCA54EC32A37F01B470F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FE82B1B6D8D08EA47716A02 /* CoreGraphics.framework */; };
+		076A43257EA48CC1B0E3059D /* NSString+FontAwesome.m in Sources */ = {isa = PBXBuildFile; fileRef = B06743BA225185BD612E9B80 /* NSString+FontAwesome.m */; };
+		079B0A6061BAB73B9577CB02 /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 71CE778FD612BC5A2DB45662 /* MBProgressHUD.h */; };
+		089BE85805DFC537ED752D33 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E42602A00AAC02845F84EE1 /* AVFoundation.framework */; };
+		0B629463262AE3A5BD39BB25 /* UIColor+BButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 259F1451A0C44DB238078A52 /* UIColor+BButton.m */; };
+		0F2D48EBE90E692D60C855A6 /* BButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CFE9457EE7ED64A018E3923 /* BButton.h */; };
+		1F34BB367D8FE1BFEEDF12BE /* JVFloatLabeledTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 006B6AE134883DF93FDCAC3B /* JVFloatLabeledTextView.h */; };
+		1F708436E84E62D549E1EECE /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 136606C33BC7BEF74CBD3FB3 /* SystemConfiguration.framework */; };
+		2906D61C4503EAA5F249E546 /* JVFloatLabeledTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 34E278F98B2FE78BE4A3CF6C /* JVFloatLabeledTextField.h */; };
+		2FAB55C9EBD210F5232F7D74 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6452C39AB917D95A59FFDA3E /* MediaPlayer.framework */; };
+		300BE2C34FDBD624A08D6300 /* Pods-perkAppsaholic-BButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F48AF5888E0E4B753000547D /* Pods-perkAppsaholic-BButton-dummy.m */; };
+		39FEEA060AA61396E41CF3E5 /* NSString+TextDirectionality.m in Sources */ = {isa = PBXBuildFile; fileRef = 91733F87D4D24D16CDF30B97 /* NSString+TextDirectionality.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		43FE0610A3A2FD536C8E9B93 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2F78FA31A0D85B6179B3E61 /* CoreMotion.framework */; };
+		4D70CB745CECB1C167DA1274 /* AppsaholicSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E1B2A27E2FB5F57FE07DAD9 /* AppsaholicSDK.h */; };
+		503403C9CB8F2C1B8E471762 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B7C1A41A5154570806621D6 /* Foundation.framework */; };
+		567E96669574E565164C4BCE /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8A69CFCDA2154794E3C0D98 /* CFNetwork.framework */; };
+		62F706EE087C9635493697B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B7C1A41A5154570806621D6 /* Foundation.framework */; };
+		65D2422087D16B3FCBA85835 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FF98B396A07B0D2F088CD3C /* UIKit.framework */; };
+		6C0275235C9A87F437241139 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DA116AD36344419E788F4D0 /* AdSupport.framework */; };
+		703E32C49D9D69401DFA3268 /* UIColor+BButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BD7407E90338DD5E19B2708 /* UIColor+BButton.h */; };
+		731FDCF627793F17EDE8D477 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F4E9A91B6FF6D15C6282443 /* CoreTelephony.framework */; };
+		732BE3E41C919867D41208F9 /* JVFloatLabeledTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 208D569CD426A9ED91C1F86A /* JVFloatLabeledTextField.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		736F9655F6F694E6762078F2 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B364ED5B6A90497DE2AE95A6 /* StoreKit.framework */; };
+		73C7F049418E074306ED4DBD /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FA4F024966571F46F94E8CC /* Reachability.h */; };
+		7A835966FD7D8E057CB46AF9 /* JVFloatLabeledTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 07F15F5CC57407379B11F151 /* JVFloatLabeledTextView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		861B5E7F9C8A2F637A4D6A5F /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 199A73ED0588290FCB33693C /* MBProgressHUD.m */; };
+		8F6D16300C26CA4FCF0AB1E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B7C1A41A5154570806621D6 /* Foundation.framework */; };
+		918C029769B0096ECBA797AF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FF98B396A07B0D2F088CD3C /* UIKit.framework */; };
+		93FA2B134DD6184EC0B932E8 /* Pods-perkAppsaholic-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 48E0E76DE9F0037127D8258C /* Pods-perkAppsaholic-dummy.m */; };
+		96F0D989B72B201D83E6FC9A /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B3867614A9CA86C6D002B3E /* Reachability.m */; };
+		9E864E1D1D1CEF508699F3A4 /* NSString+FontAwesome.h in Headers */ = {isa = PBXBuildFile; fileRef = B682E760998E581F891E69A8 /* NSString+FontAwesome.h */; };
+		9F00B7A14CD77B75BB856393 /* Pods-perkAppsaholic-JVFloatLabeledTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A033FE415BA9F22FA8639499 /* Pods-perkAppsaholic-JVFloatLabeledTextField-dummy.m */; };
+		A101B1F1D5BCCF61E9C1E1D6 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DF36739F5105C02124BDC7C /* AudioToolbox.framework */; };
+		AA9413C6FBAF5CED7C589BA5 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 347EB12A87FA5C96B53DB43E /* CoreMedia.framework */; };
+		B727716B939856588EFA1B35 /* BButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3647551E9D77063C02C18AD9 /* BButton.m */; };
+		D0EE4F8B3AB1167576BF9EA8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B7C1A41A5154570806621D6 /* Foundation.framework */; };
+		D5EA3D2C90120C9003B1ECD5 /* NSString+TextDirectionality.h in Headers */ = {isa = PBXBuildFile; fileRef = BCDE6108F21011206BE9817E /* NSString+TextDirectionality.h */; };
+		D96742FC0D8950CBB62C211C /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E3456E26ECCE5F5B0D1E61E /* iAd.framework */; };
+		E5A55C41BD8D41939DA287C8 /* Pods-perkAppsaholic-AppsaholicSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ABBB74E6858975055D5651E2 /* Pods-perkAppsaholic-AppsaholicSDK-dummy.m */; };
+		EEF2C77C76953F3FC8DBFB30 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BF7DB70FCF3E91D72C86506 /* QuartzCore.framework */; };
+		FA6BC36AD57865EB881AD355 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FE82B1B6D8D08EA47716A02 /* CoreGraphics.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		D77F5CA43124F3FFBA3F2C3F /* PBXContainerItemProxy */ = {
+		0137D81E7973347F71796D68 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = FDC6EDE4F6361852C308B528 /* Project object */;
+			containerPortal = DA3DF179DAB1161FFBBF037F /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 026D5EB8AAC34789731266A3;
+			remoteGlobalIDString = 72C7DE14EC28D50DE52E449C;
+			remoteInfo = "Pods-perkAppsaholic-BButton";
+		};
+		84EFC24532F42ABB9E75B0F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA3DF179DAB1161FFBBF037F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1A1A2860EB774347C6B905D;
+			remoteInfo = "Pods-perkAppsaholic-JVFloatLabeledTextField";
+		};
+		B28DFDCD118CD1D6D74F260F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA3DF179DAB1161FFBBF037F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11FDF1FA127DA400FA126E1C;
 			remoteInfo = "Pods-perkAppsaholic-AppsaholicSDK";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		010EEC3F56CEE0E36C5071E3 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/CoreMedia.framework; sourceTree = DEVELOPER_DIR; };
-		08D603D6EB468C26742092F8 /* icon_refresh.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = icon_refresh.png; sourceTree = "<group>"; };
-		0CA550633C9EC94D7D911A7E /* Pods-perkAppsaholic-AppsaholicSDK-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-perkAppsaholic-AppsaholicSDK-Private.xcconfig"; sourceTree = "<group>"; };
-		0D8E8D558E7261B201FEA262 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		0EBBE51051A64894917B2834 /* logo_perk.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = logo_perk.png; sourceTree = "<group>"; };
-		18C67D3D002765335FABB253 /* Pods-perkAppsaholic-AppsaholicSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-perkAppsaholic-AppsaholicSDK.xcconfig"; sourceTree = "<group>"; };
-		22E013FC1FCA9CF093C778C3 /* Pods-perkAppsaholic-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-perkAppsaholic-acknowledgements.markdown"; sourceTree = "<group>"; };
-		2CFD0C8438242D4EBB9CC09E /* info_circle.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = info_circle.png; sourceTree = "<group>"; };
-		342C023F3135158EB6E7D839 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/StoreKit.framework; sourceTree = DEVELOPER_DIR; };
-		3734935AEF45EDAA39C89208 /* Pods-perkAppsaholic-AppsaholicSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-perkAppsaholic-AppsaholicSDK-prefix.pch"; sourceTree = "<group>"; };
-		3AE37162F07D01CA09D3D54D /* libPods-perkAppsaholic-AppsaholicSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-perkAppsaholic-AppsaholicSDK.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3BB6B347B59F5495AC39E41B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		462F93420446F4FCA2DB5F42 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		4AAF6DBF55E063FEF1123A55 /* libPods-perkAppsaholic.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-perkAppsaholic.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5D92BE267134E80618942E77 /* close_button.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = close_button.png; sourceTree = "<group>"; };
-		5E9267C65E7AF884E9C80771 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
-		64B01AF82E87C57D4FA369D6 /* icon_close.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = icon_close.png; sourceTree = "<group>"; };
-		6DE5322448F4CEDFAED47AE2 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
-		77840DBF09FDB16E8030184C /* FBAudienceNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBAudienceNetwork.framework; path = FacebookSDK/FBAudienceNetwork.framework; sourceTree = "<group>"; };
-		7C26EB63A733A036EBFF1506 /* Pods-perkAppsaholic-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-perkAppsaholic-environment.h"; sourceTree = "<group>"; };
-		7E0D2C5B521869040C250875 /* perk_star.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = perk_star.png; sourceTree = "<group>"; };
-		8034B9ED15B92BB225B10DC1 /* Pods-perkAppsaholic-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-perkAppsaholic-acknowledgements.plist"; sourceTree = "<group>"; };
-		84D761E686D04B723E12148B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
-		88A1731220AF0261D6690B5E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
-		95262C915C10AD1020D09A7D /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/MediaPlayer.framework; sourceTree = DEVELOPER_DIR; };
-		96AFF878AE16F7FB580E0AD2 /* Pods-perkAppsaholic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-perkAppsaholic.release.xcconfig"; sourceTree = "<group>"; };
-		983E747D83283873527FCF36 /* account.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = account.png; sourceTree = "<group>"; };
-		9BBD1D76BF1FEAE0DCD8ADB9 /* TempUnavailable.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = TempUnavailable.png; sourceTree = "<group>"; };
-		9C852B90CDD431E0AAD1AB4C /* Pods-perkAppsaholic-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-perkAppsaholic-resources.sh"; sourceTree = "<group>"; };
-		9D518CBAA37175EB5DA16DF2 /* info.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = info.png; sourceTree = "<group>"; };
-		A9C80D1BCA9204DAD4F5598C /* back.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
-		AEA590C299D5BA9C722E8EFD /* Reachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
-		B1B13D81CC979FD7EE47A773 /* libAppsaholicSDK-2.2.1.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = "libAppsaholicSDK-2.2.1.a"; sourceTree = "<group>"; };
-		B2AF3C8F9E31A0F2F7D75C25 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		C019BAAC084DB04143DCEB00 /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
-		C29B52F9AF4E3256689AE759 /* Pods-perkAppsaholic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-perkAppsaholic.debug.xcconfig"; sourceTree = "<group>"; };
-		C348649BEF36515D14090EEC /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/AdSupport.framework; sourceTree = DEVELOPER_DIR; };
-		C462580DAFC851EEC13D38A9 /* exclaimation.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = exclaimation.png; sourceTree = "<group>"; };
-		C719F610147A1A37A1633369 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/iAd.framework; sourceTree = DEVELOPER_DIR; };
-		C74D4A5455D230A6484C3B73 /* pollfish.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = pollfish.framework; path = PollfishSDK/pollfish.framework; sourceTree = "<group>"; };
-		CDC584A914FA4F8EEE63D2DD /* Pods-perkAppsaholic-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-perkAppsaholic-dummy.m"; sourceTree = "<group>"; };
-		D4E5280974F94EF1587F6417 /* AppsaholicSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AppsaholicSDK.h; sourceTree = "<group>"; };
-		DAE2E7B15B6DC3BC2D1E8D7B /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/CoreMotion.framework; sourceTree = DEVELOPER_DIR; };
-		DCE6C17D4142E50DAD294740 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/AudioToolbox.framework; sourceTree = DEVELOPER_DIR; };
-		DE44EDB27F8DA4BF2F60EA0A /* Pods-perkAppsaholic-AppsaholicSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-perkAppsaholic-AppsaholicSDK-dummy.m"; sourceTree = "<group>"; };
-		E3B3F7839BFFBA44D5B16E2B /* MBProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
-		E84063E91DD0FEBF917EB815 /* AerServSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AerServSDK.framework; path = "aerserv-ios-sdk-min/lib/AerServSDK.framework"; sourceTree = "<group>"; };
-		EA3C9EEAB7DC262F55B69FDE /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
-		FCD5794111ED17274EEF5128 /* Reachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		0060C9ACF41EF6244FF84AEB /* Pods-perkAppsaholic-JVFloatLabeledTextField-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-perkAppsaholic-JVFloatLabeledTextField-Private.xcconfig"; sourceTree = "<group>"; };
+		006B6AE134883DF93FDCAC3B /* JVFloatLabeledTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JVFloatLabeledTextView.h; path = JVFloatLabeledTextField/JVFloatLabeledTextField/JVFloatLabeledTextView.h; sourceTree = "<group>"; };
+		07F15F5CC57407379B11F151 /* JVFloatLabeledTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JVFloatLabeledTextView.m; path = JVFloatLabeledTextField/JVFloatLabeledTextField/JVFloatLabeledTextView.m; sourceTree = "<group>"; };
+		0DF36739F5105C02124BDC7C /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/AudioToolbox.framework; sourceTree = DEVELOPER_DIR; };
+		0E3456E26ECCE5F5B0D1E61E /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/iAd.framework; sourceTree = DEVELOPER_DIR; };
+		109998DCCAA075A0966F4039 /* FontAwesome.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = FontAwesome.ttf; path = BButton/resources/FontAwesome.ttf; sourceTree = "<group>"; };
+		136606C33BC7BEF74CBD3FB3 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		1540A8548363E2450D49CD85 /* FBAudienceNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBAudienceNetwork.framework; path = FacebookSDK/FBAudienceNetwork.framework; sourceTree = "<group>"; };
+		199A73ED0588290FCB33693C /* MBProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		1B3867614A9CA86C6D002B3E /* Reachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		1B7C74E8FB2E28C9D4D8AB9D /* Pods-perkAppsaholic-BButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-perkAppsaholic-BButton-prefix.pch"; sourceTree = "<group>"; };
+		1E40458164F3D9D1103AFA42 /* pollfish.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = pollfish.framework; path = PollfishSDK/pollfish.framework; sourceTree = "<group>"; };
+		208D569CD426A9ED91C1F86A /* JVFloatLabeledTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JVFloatLabeledTextField.m; path = JVFloatLabeledTextField/JVFloatLabeledTextField/JVFloatLabeledTextField.m; sourceTree = "<group>"; };
+		21134C0D3FA21CC59CFAAD2D /* Pods-perkAppsaholic-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-perkAppsaholic-resources.sh"; sourceTree = "<group>"; };
+		254B299D3574697CA626DABA /* Pods-perkAppsaholic-BButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-perkAppsaholic-BButton.xcconfig"; sourceTree = "<group>"; };
+		2567E98B55B97D55F4471B28 /* AerServSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AerServSDK.framework; path = "aerserv-ios-sdk-min/lib/AerServSDK.framework"; sourceTree = "<group>"; };
+		259F1451A0C44DB238078A52 /* UIColor+BButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+BButton.m"; path = "BButton/Classes/UIColor+BButton.m"; sourceTree = "<group>"; };
+		2E1B2A27E2FB5F57FE07DAD9 /* AppsaholicSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AppsaholicSDK.h; sourceTree = "<group>"; };
+		2ED95177C64A8CAC4E60D44C /* Pods-perkAppsaholic-JVFloatLabeledTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-perkAppsaholic-JVFloatLabeledTextField-prefix.pch"; sourceTree = "<group>"; };
+		2F3FDA117BA66FABA36662E8 /* libPods-perkAppsaholic-JVFloatLabeledTextField.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-perkAppsaholic-JVFloatLabeledTextField.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		347EB12A87FA5C96B53DB43E /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/CoreMedia.framework; sourceTree = DEVELOPER_DIR; };
+		34E278F98B2FE78BE4A3CF6C /* JVFloatLabeledTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JVFloatLabeledTextField.h; path = JVFloatLabeledTextField/JVFloatLabeledTextField/JVFloatLabeledTextField.h; sourceTree = "<group>"; };
+		3647551E9D77063C02C18AD9 /* BButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BButton.m; path = BButton/Classes/BButton.m; sourceTree = "<group>"; };
+		3798D05797A60E37214EA245 /* Pods-perkAppsaholic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-perkAppsaholic.debug.xcconfig"; sourceTree = "<group>"; };
+		3974477BD78E3F0E6441DB3F /* Pods-perkAppsaholic-AppsaholicSDK-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-perkAppsaholic-AppsaholicSDK-Private.xcconfig"; sourceTree = "<group>"; };
+		3B7C1A41A5154570806621D6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3E42602A00AAC02845F84EE1 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		3FF98B396A07B0D2F088CD3C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		426DCB9BBC9DF6E7B7914745 /* close_button.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = close_button.png; sourceTree = "<group>"; };
+		4427FEBF794F46A0C6712FE6 /* Pods-perkAppsaholic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-perkAppsaholic.release.xcconfig"; sourceTree = "<group>"; };
+		48E0E76DE9F0037127D8258C /* Pods-perkAppsaholic-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-perkAppsaholic-dummy.m"; sourceTree = "<group>"; };
+		4DA116AD36344419E788F4D0 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/AdSupport.framework; sourceTree = DEVELOPER_DIR; };
+		4F4E9A91B6FF6D15C6282443 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
+		4F89883B892815D4D357D0F7 /* back.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		5075D031758C0490F88CA434 /* Pods-perkAppsaholic-AppsaholicSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-perkAppsaholic-AppsaholicSDK-prefix.pch"; sourceTree = "<group>"; };
+		5988575CED450FE33140273D /* Pods-perkAppsaholic-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-perkAppsaholic-acknowledgements.markdown"; sourceTree = "<group>"; };
+		637DF32AEB3F3850B4BCEC89 /* info_circle.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = info_circle.png; sourceTree = "<group>"; };
+		6452C39AB917D95A59FFDA3E /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/MediaPlayer.framework; sourceTree = DEVELOPER_DIR; };
+		698F512F1E62693FAF38592C /* account.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = account.png; sourceTree = "<group>"; };
+		6BF7DB70FCF3E91D72C86506 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		6CFE9457EE7ED64A018E3923 /* BButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BButton.h; path = BButton/Classes/BButton.h; sourceTree = "<group>"; };
+		71494C208CD96B84E9D60F0B /* icon_refresh.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = icon_refresh.png; sourceTree = "<group>"; };
+		71CE778FD612BC5A2DB45662 /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		76C09FD6A753F8B772F572E8 /* exclaimation.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = exclaimation.png; sourceTree = "<group>"; };
+		7828278ECB4E6D7FBB951E53 /* perk_star.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = perk_star.png; sourceTree = "<group>"; };
+		7C203A9F201C126AD9A360CE /* libPods-perkAppsaholic-BButton.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-perkAppsaholic-BButton.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FE82B1B6D8D08EA47716A02 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		846667F6E6D4AB4EA20A716A /* Pods-perkAppsaholic-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-perkAppsaholic-acknowledgements.plist"; sourceTree = "<group>"; };
+		880F412F92AA278A5A7EABEC /* icon_close.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = icon_close.png; sourceTree = "<group>"; };
+		91733F87D4D24D16CDF30B97 /* NSString+TextDirectionality.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+TextDirectionality.m"; path = "JVFloatLabeledTextField/JVFloatLabeledTextField/NSString+TextDirectionality.m"; sourceTree = "<group>"; };
+		93759AA32CE878DBEFE611C5 /* libAppsaholicSDK-2.2.1.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = "libAppsaholicSDK-2.2.1.a"; sourceTree = "<group>"; };
+		9A67B67E214451B97701265B /* Pods-perkAppsaholic-JVFloatLabeledTextField.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-perkAppsaholic-JVFloatLabeledTextField.xcconfig"; sourceTree = "<group>"; };
+		9BD7407E90338DD5E19B2708 /* UIColor+BButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+BButton.h"; path = "BButton/Classes/UIColor+BButton.h"; sourceTree = "<group>"; };
+		9FA4F024966571F46F94E8CC /* Reachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		A033FE415BA9F22FA8639499 /* Pods-perkAppsaholic-JVFloatLabeledTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-perkAppsaholic-JVFloatLabeledTextField-dummy.m"; sourceTree = "<group>"; };
+		A44AC966D40BBF6D213B2A7E /* TempUnavailable.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = TempUnavailable.png; sourceTree = "<group>"; };
+		ABBB74E6858975055D5651E2 /* Pods-perkAppsaholic-AppsaholicSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-perkAppsaholic-AppsaholicSDK-dummy.m"; sourceTree = "<group>"; };
+		B06743BA225185BD612E9B80 /* NSString+FontAwesome.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+FontAwesome.m"; path = "BButton/Classes/NSString+FontAwesome.m"; sourceTree = "<group>"; };
+		B364ED5B6A90497DE2AE95A6 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/StoreKit.framework; sourceTree = DEVELOPER_DIR; };
+		B3A26A25E4C1B87EAF887D0D /* Pods-perkAppsaholic-BButton-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-perkAppsaholic-BButton-Private.xcconfig"; sourceTree = "<group>"; };
+		B682E760998E581F891E69A8 /* NSString+FontAwesome.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+FontAwesome.h"; path = "BButton/Classes/NSString+FontAwesome.h"; sourceTree = "<group>"; };
+		B7A7E216D193BA64845B1A57 /* info.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = info.png; sourceTree = "<group>"; };
+		BCDE6108F21011206BE9817E /* NSString+TextDirectionality.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+TextDirectionality.h"; path = "JVFloatLabeledTextField/JVFloatLabeledTextField/NSString+TextDirectionality.h"; sourceTree = "<group>"; };
+		C0F9A49FDB86E4B68F0259CE /* Pods-perkAppsaholic-AppsaholicSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-perkAppsaholic-AppsaholicSDK.xcconfig"; sourceTree = "<group>"; };
+		E28363BFB1B4C35B91579FB4 /* libPods-perkAppsaholic-AppsaholicSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-perkAppsaholic-AppsaholicSDK.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E57EC54A5ACC946E8D96142F /* Pods-perkAppsaholic-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-perkAppsaholic-environment.h"; sourceTree = "<group>"; };
+		EF06D5137C195A6270F76722 /* logo_perk.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = logo_perk.png; sourceTree = "<group>"; };
+		F2F78FA31A0D85B6179B3E61 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/CoreMotion.framework; sourceTree = DEVELOPER_DIR; };
+		F48AF5888E0E4B753000547D /* Pods-perkAppsaholic-BButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-perkAppsaholic-BButton-dummy.m"; sourceTree = "<group>"; };
+		F8A69CFCDA2154794E3C0D98 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		FA8429CAE9510E808E1B9BBB /* libPods-perkAppsaholic.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-perkAppsaholic.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC94CB84129EBD6488D009A6 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		42875DAF5814B9C7E1A42E9F /* Frameworks */ = {
+		01C10706AE2A5D7F981CF4E0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5AC08691D1BACA22A85DF84A /* Foundation.framework in Frameworks */,
+				503403C9CB8F2C1B8E471762 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C89E1822E7A8791153C74E8F /* Frameworks */ = {
+		06BEDCD6670C71DCA2643492 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D9ACB9D72C5DD94F18FEA94 /* AVFoundation.framework in Frameworks */,
-				8EE4C0FAC02DEFC3E05C604C /* AdSupport.framework in Frameworks */,
-				318939164225F756F9EBB51E /* AudioToolbox.framework in Frameworks */,
-				4092AFC70EF4F97EBF1433CF /* CFNetwork.framework in Frameworks */,
-				5E7758EAC48023E9671299E4 /* CoreGraphics.framework in Frameworks */,
-				614D92035C59A1923C0EFAAE /* CoreMedia.framework in Frameworks */,
-				FCF625D0CB155034B37E89EF /* CoreMotion.framework in Frameworks */,
-				10D4016D6FA6FE208725D348 /* CoreTelephony.framework in Frameworks */,
-				88489C13A69E263DE475AE3A /* Foundation.framework in Frameworks */,
-				D807A77E6A4004D3AA897D1E /* MediaPlayer.framework in Frameworks */,
-				5A0CF17DBDD772972D61382B /* QuartzCore.framework in Frameworks */,
-				469FBBB393229E372868C89C /* StoreKit.framework in Frameworks */,
-				BC5A8C9B02AD65B6BD0B587D /* SystemConfiguration.framework in Frameworks */,
-				9343871C58304418C19DC8E8 /* UIKit.framework in Frameworks */,
-				3ACAAD9A2C4628F0F14E9481 /* iAd.framework in Frameworks */,
+				D0EE4F8B3AB1167576BF9EA8 /* Foundation.framework in Frameworks */,
+				65D2422087D16B3FCBA85835 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1494BB13F25CD4C0300A3FB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA6BC36AD57865EB881AD355 /* CoreGraphics.framework in Frameworks */,
+				62F706EE087C9635493697B1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BE4E2E378F7829AFAC776CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				089BE85805DFC537ED752D33 /* AVFoundation.framework in Frameworks */,
+				6C0275235C9A87F437241139 /* AdSupport.framework in Frameworks */,
+				A101B1F1D5BCCF61E9C1E1D6 /* AudioToolbox.framework in Frameworks */,
+				567E96669574E565164C4BCE /* CFNetwork.framework in Frameworks */,
+				00E4FCA54EC32A37F01B470F /* CoreGraphics.framework in Frameworks */,
+				AA9413C6FBAF5CED7C589BA5 /* CoreMedia.framework in Frameworks */,
+				43FE0610A3A2FD536C8E9B93 /* CoreMotion.framework in Frameworks */,
+				731FDCF627793F17EDE8D477 /* CoreTelephony.framework in Frameworks */,
+				8F6D16300C26CA4FCF0AB1E2 /* Foundation.framework in Frameworks */,
+				2FAB55C9EBD210F5232F7D74 /* MediaPlayer.framework in Frameworks */,
+				EEF2C77C76953F3FC8DBFB30 /* QuartzCore.framework in Frameworks */,
+				736F9655F6F694E6762078F2 /* StoreKit.framework in Frameworks */,
+				1F708436E84E62D549E1EECE /* SystemConfiguration.framework in Frameworks */,
+				918C029769B0096ECBA797AF /* UIKit.framework in Frameworks */,
+				D96742FC0D8950CBB62C211C /* iAd.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0C92B78DB42B36001BDDD4EB /* Frameworks */ = {
+		1C52ECE75F0A82DB98BD99FF /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				B0CE4AB6661D7F2594AA89CE /* iOS */,
+				254B299D3574697CA626DABA /* Pods-perkAppsaholic-BButton.xcconfig */,
+				B3A26A25E4C1B87EAF887D0D /* Pods-perkAppsaholic-BButton-Private.xcconfig */,
+				F48AF5888E0E4B753000547D /* Pods-perkAppsaholic-BButton-dummy.m */,
+				1B7C74E8FB2E28C9D4D8AB9D /* Pods-perkAppsaholic-BButton-prefix.pch */,
 			);
-			name = Frameworks;
+			name = "Support Files";
+			path = "../Target Support Files/Pods-perkAppsaholic-BButton";
 			sourceTree = "<group>";
 		};
-		0D91D5B3C0674D515B697DF6 /* Resources */ = {
+		370DD4FCDAD9FC3E0531EC3E /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				9BBD1D76BF1FEAE0DCD8ADB9 /* TempUnavailable.png */,
-				983E747D83283873527FCF36 /* account.png */,
-				A9C80D1BCA9204DAD4F5598C /* back.png */,
-				5D92BE267134E80618942E77 /* close_button.png */,
-				C462580DAFC851EEC13D38A9 /* exclaimation.png */,
-				64B01AF82E87C57D4FA369D6 /* icon_close.png */,
-				08D603D6EB468C26742092F8 /* icon_refresh.png */,
-				9D518CBAA37175EB5DA16DF2 /* info.png */,
-				2CFD0C8438242D4EBB9CC09E /* info_circle.png */,
-				0EBBE51051A64894917B2834 /* logo_perk.png */,
-				7E0D2C5B521869040C250875 /* perk_star.png */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
-		19F13AA2EA840C23547D5241 /* AppsaholicSDK */ = {
-			isa = PBXGroup;
-			children = (
-				D4E5280974F94EF1587F6417 /* AppsaholicSDK.h */,
-				C019BAAC084DB04143DCEB00 /* MBProgressHUD.h */,
-				E3B3F7839BFFBA44D5B16E2B /* MBProgressHUD.m */,
-				AEA590C299D5BA9C722E8EFD /* Reachability.h */,
-				FCD5794111ED17274EEF5128 /* Reachability.m */,
-				3D4A3703BD7830E7BFE41F3D /* Frameworks */,
-				9D507FF4E31284303ED42E89 /* Resources */,
-				B1B4A98A853B50B5C4E5868B /* Support Files */,
-			);
-			name = AppsaholicSDK;
-			path = ../../AppsaholicUniversalSDK;
-			sourceTree = "<group>";
-		};
-		266CED46DCA328250791A170 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				19F13AA2EA840C23547D5241 /* AppsaholicSDK */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		3D4A3703BD7830E7BFE41F3D /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				E84063E91DD0FEBF917EB815 /* AerServSDK.framework */,
-				77840DBF09FDB16E8030184C /* FBAudienceNetwork.framework */,
-				B1B13D81CC979FD7EE47A773 /* libAppsaholicSDK-2.2.1.a */,
-				C74D4A5455D230A6484C3B73 /* pollfish.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		9D507FF4E31284303ED42E89 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				0D91D5B3C0674D515B697DF6 /* Resources */,
+				109998DCCAA075A0966F4039 /* FontAwesome.ttf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		A544FEEAC1E4D933186D532F /* Products */ = {
+		393D6DCD1FD69999EF72D045 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				4AAF6DBF55E063FEF1123A55 /* libPods-perkAppsaholic.a */,
-				3AE37162F07D01CA09D3D54D /* libPods-perkAppsaholic-AppsaholicSDK.a */,
+				CF7D8FF73EC2DE4D6813A839 /* Resources */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		4220F93572058940EF4321BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DBBF9D03C639C052857336BD /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4D1A9133EC48AE4A33078778 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA8429CAE9510E808E1B9BBB /* libPods-perkAppsaholic.a */,
+				E28363BFB1B4C35B91579FB4 /* libPods-perkAppsaholic-AppsaholicSDK.a */,
+				7C203A9F201C126AD9A360CE /* libPods-perkAppsaholic-BButton.a */,
+				2F3FDA117BA66FABA36662E8 /* libPods-perkAppsaholic-JVFloatLabeledTextField.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A55C56952CF9E9FD9ED44593 /* Targets Support Files */ = {
+		79DB93E75222A273832E7B19 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				E6A79E8CA53E349AFAC43FB8 /* Pods-perkAppsaholic */,
+				9A67B67E214451B97701265B /* Pods-perkAppsaholic-JVFloatLabeledTextField.xcconfig */,
+				0060C9ACF41EF6244FF84AEB /* Pods-perkAppsaholic-JVFloatLabeledTextField-Private.xcconfig */,
+				A033FE415BA9F22FA8639499 /* Pods-perkAppsaholic-JVFloatLabeledTextField-dummy.m */,
+				2ED95177C64A8CAC4E60D44C /* Pods-perkAppsaholic-JVFloatLabeledTextField-prefix.pch */,
 			);
-			name = "Targets Support Files";
+			name = "Support Files";
+			path = "../Target Support Files/Pods-perkAppsaholic-JVFloatLabeledTextField";
 			sourceTree = "<group>";
 		};
-		B0CE4AB6661D7F2594AA89CE /* iOS */ = {
+		8B75CCF836706D7559A49F80 /* JVFloatLabeledTextField */ = {
 			isa = PBXGroup;
 			children = (
-				5E9267C65E7AF884E9C80771 /* AVFoundation.framework */,
-				C348649BEF36515D14090EEC /* AdSupport.framework */,
-				DCE6C17D4142E50DAD294740 /* AudioToolbox.framework */,
-				6DE5322448F4CEDFAED47AE2 /* CFNetwork.framework */,
-				88A1731220AF0261D6690B5E /* CoreGraphics.framework */,
-				010EEC3F56CEE0E36C5071E3 /* CoreMedia.framework */,
-				DAE2E7B15B6DC3BC2D1E8D7B /* CoreMotion.framework */,
-				EA3C9EEAB7DC262F55B69FDE /* CoreTelephony.framework */,
-				3BB6B347B59F5495AC39E41B /* Foundation.framework */,
-				95262C915C10AD1020D09A7D /* MediaPlayer.framework */,
-				B2AF3C8F9E31A0F2F7D75C25 /* QuartzCore.framework */,
-				342C023F3135158EB6E7D839 /* StoreKit.framework */,
-				84D761E686D04B723E12148B /* SystemConfiguration.framework */,
-				0D8E8D558E7261B201FEA262 /* UIKit.framework */,
-				C719F610147A1A37A1633369 /* iAd.framework */,
+				34E278F98B2FE78BE4A3CF6C /* JVFloatLabeledTextField.h */,
+				208D569CD426A9ED91C1F86A /* JVFloatLabeledTextField.m */,
+				006B6AE134883DF93FDCAC3B /* JVFloatLabeledTextView.h */,
+				07F15F5CC57407379B11F151 /* JVFloatLabeledTextView.m */,
+				BCDE6108F21011206BE9817E /* NSString+TextDirectionality.h */,
+				91733F87D4D24D16CDF30B97 /* NSString+TextDirectionality.m */,
+				79DB93E75222A273832E7B19 /* Support Files */,
 			);
-			name = iOS;
+			path = JVFloatLabeledTextField;
 			sourceTree = "<group>";
 		};
-		B1B4A98A853B50B5C4E5868B /* Support Files */ = {
+		AA29D04F075730564CC2735C /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				18C67D3D002765335FABB253 /* Pods-perkAppsaholic-AppsaholicSDK.xcconfig */,
-				0CA550633C9EC94D7D911A7E /* Pods-perkAppsaholic-AppsaholicSDK-Private.xcconfig */,
-				DE44EDB27F8DA4BF2F60EA0A /* Pods-perkAppsaholic-AppsaholicSDK-dummy.m */,
-				3734935AEF45EDAA39C89208 /* Pods-perkAppsaholic-AppsaholicSDK-prefix.pch */,
+				C0F9A49FDB86E4B68F0259CE /* Pods-perkAppsaholic-AppsaholicSDK.xcconfig */,
+				3974477BD78E3F0E6441DB3F /* Pods-perkAppsaholic-AppsaholicSDK-Private.xcconfig */,
+				ABBB74E6858975055D5651E2 /* Pods-perkAppsaholic-AppsaholicSDK-dummy.m */,
+				5075D031758C0490F88CA434 /* Pods-perkAppsaholic-AppsaholicSDK-prefix.pch */,
 			);
 			name = "Support Files";
 			path = "../perkAppsaholic/Pods/Target Support Files/Pods-perkAppsaholic-AppsaholicSDK";
 			sourceTree = "<group>";
 		};
-		E6A79E8CA53E349AFAC43FB8 /* Pods-perkAppsaholic */ = {
+		ABA403EF72989B1F73865ABD /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				22E013FC1FCA9CF093C778C3 /* Pods-perkAppsaholic-acknowledgements.markdown */,
-				8034B9ED15B92BB225B10DC1 /* Pods-perkAppsaholic-acknowledgements.plist */,
-				CDC584A914FA4F8EEE63D2DD /* Pods-perkAppsaholic-dummy.m */,
-				7C26EB63A733A036EBFF1506 /* Pods-perkAppsaholic-environment.h */,
-				9C852B90CDD431E0AAD1AB4C /* Pods-perkAppsaholic-resources.sh */,
-				C29B52F9AF4E3256689AE759 /* Pods-perkAppsaholic.debug.xcconfig */,
-				96AFF878AE16F7FB580E0AD2 /* Pods-perkAppsaholic.release.xcconfig */,
+				CD5B409FBE363AF0127B64A5 /* BButton */,
+				8B75CCF836706D7559A49F80 /* JVFloatLabeledTextField */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C72951744B174414F4CD3674 /* AppsaholicSDK */ = {
+			isa = PBXGroup;
+			children = (
+				2E1B2A27E2FB5F57FE07DAD9 /* AppsaholicSDK.h */,
+				71CE778FD612BC5A2DB45662 /* MBProgressHUD.h */,
+				199A73ED0588290FCB33693C /* MBProgressHUD.m */,
+				9FA4F024966571F46F94E8CC /* Reachability.h */,
+				1B3867614A9CA86C6D002B3E /* Reachability.m */,
+				D06A50B4DFAF5263BAFF06B6 /* Frameworks */,
+				393D6DCD1FD69999EF72D045 /* Resources */,
+				AA29D04F075730564CC2735C /* Support Files */,
+			);
+			name = AppsaholicSDK;
+			path = ../../AppsaholicUniversalSDK;
+			sourceTree = "<group>";
+		};
+		CD5B409FBE363AF0127B64A5 /* BButton */ = {
+			isa = PBXGroup;
+			children = (
+				6CFE9457EE7ED64A018E3923 /* BButton.h */,
+				3647551E9D77063C02C18AD9 /* BButton.m */,
+				B682E760998E581F891E69A8 /* NSString+FontAwesome.h */,
+				B06743BA225185BD612E9B80 /* NSString+FontAwesome.m */,
+				9BD7407E90338DD5E19B2708 /* UIColor+BButton.h */,
+				259F1451A0C44DB238078A52 /* UIColor+BButton.m */,
+				370DD4FCDAD9FC3E0531EC3E /* Resources */,
+				1C52ECE75F0A82DB98BD99FF /* Support Files */,
+			);
+			path = BButton;
+			sourceTree = "<group>";
+		};
+		CD6A4014C90E3CE8EF837DDC /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C72951744B174414F4CD3674 /* AppsaholicSDK */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CF7D8FF73EC2DE4D6813A839 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A44AC966D40BBF6D213B2A7E /* TempUnavailable.png */,
+				698F512F1E62693FAF38592C /* account.png */,
+				4F89883B892815D4D357D0F7 /* back.png */,
+				426DCB9BBC9DF6E7B7914745 /* close_button.png */,
+				76C09FD6A753F8B772F572E8 /* exclaimation.png */,
+				880F412F92AA278A5A7EABEC /* icon_close.png */,
+				71494C208CD96B84E9D60F0B /* icon_refresh.png */,
+				B7A7E216D193BA64845B1A57 /* info.png */,
+				637DF32AEB3F3850B4BCEC89 /* info_circle.png */,
+				EF06D5137C195A6270F76722 /* logo_perk.png */,
+				7828278ECB4E6D7FBB951E53 /* perk_star.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D06A50B4DFAF5263BAFF06B6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2567E98B55B97D55F4471B28 /* AerServSDK.framework */,
+				1540A8548363E2450D49CD85 /* FBAudienceNetwork.framework */,
+				93759AA32CE878DBEFE611C5 /* libAppsaholicSDK-2.2.1.a */,
+				1E40458164F3D9D1103AFA42 /* pollfish.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D52C4AD5ABF3B59B03364259 /* Pods-perkAppsaholic */ = {
+			isa = PBXGroup;
+			children = (
+				5988575CED450FE33140273D /* Pods-perkAppsaholic-acknowledgements.markdown */,
+				846667F6E6D4AB4EA20A716A /* Pods-perkAppsaholic-acknowledgements.plist */,
+				48E0E76DE9F0037127D8258C /* Pods-perkAppsaholic-dummy.m */,
+				E57EC54A5ACC946E8D96142F /* Pods-perkAppsaholic-environment.h */,
+				21134C0D3FA21CC59CFAAD2D /* Pods-perkAppsaholic-resources.sh */,
+				3798D05797A60E37214EA245 /* Pods-perkAppsaholic.debug.xcconfig */,
+				4427FEBF794F46A0C6712FE6 /* Pods-perkAppsaholic.release.xcconfig */,
 			);
 			name = "Pods-perkAppsaholic";
 			path = "Target Support Files/Pods-perkAppsaholic";
 			sourceTree = "<group>";
 		};
-		EF1BC1306349043E110AA11D = {
+		D9185A4CBDDFB2DD72EFFBA2 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				462F93420446F4FCA2DB5F42 /* Podfile */,
-				266CED46DCA328250791A170 /* Development Pods */,
-				0C92B78DB42B36001BDDD4EB /* Frameworks */,
-				A544FEEAC1E4D933186D532F /* Products */,
-				A55C56952CF9E9FD9ED44593 /* Targets Support Files */,
+				D52C4AD5ABF3B59B03364259 /* Pods-perkAppsaholic */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		DBBF9D03C639C052857336BD /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E42602A00AAC02845F84EE1 /* AVFoundation.framework */,
+				4DA116AD36344419E788F4D0 /* AdSupport.framework */,
+				0DF36739F5105C02124BDC7C /* AudioToolbox.framework */,
+				F8A69CFCDA2154794E3C0D98 /* CFNetwork.framework */,
+				7FE82B1B6D8D08EA47716A02 /* CoreGraphics.framework */,
+				347EB12A87FA5C96B53DB43E /* CoreMedia.framework */,
+				F2F78FA31A0D85B6179B3E61 /* CoreMotion.framework */,
+				4F4E9A91B6FF6D15C6282443 /* CoreTelephony.framework */,
+				3B7C1A41A5154570806621D6 /* Foundation.framework */,
+				6452C39AB917D95A59FFDA3E /* MediaPlayer.framework */,
+				6BF7DB70FCF3E91D72C86506 /* QuartzCore.framework */,
+				B364ED5B6A90497DE2AE95A6 /* StoreKit.framework */,
+				136606C33BC7BEF74CBD3FB3 /* SystemConfiguration.framework */,
+				3FF98B396A07B0D2F088CD3C /* UIKit.framework */,
+				0E3456E26ECCE5F5B0D1E61E /* iAd.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		FAF123FD058471488BB116D6 = {
+			isa = PBXGroup;
+			children = (
+				FC94CB84129EBD6488D009A6 /* Podfile */,
+				CD6A4014C90E3CE8EF837DDC /* Development Pods */,
+				4220F93572058940EF4321BC /* Frameworks */,
+				ABA403EF72989B1F73865ABD /* Pods */,
+				4D1A9133EC48AE4A33078778 /* Products */,
+				D9185A4CBDDFB2DD72EFFBA2 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		78FB44FBE81B13FBD27CB0EB /* Headers */ = {
+		208F36C2714CF340619C127D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D64FBA825B2FC2EBEA725F75 /* AppsaholicSDK.h in Headers */,
-				836A5E0D4E571F87725FCC02 /* MBProgressHUD.h in Headers */,
-				61ED813D7F59BF25853753F5 /* Reachability.h in Headers */,
+				0F2D48EBE90E692D60C855A6 /* BButton.h in Headers */,
+				9E864E1D1D1CEF508699F3A4 /* NSString+FontAwesome.h in Headers */,
+				703E32C49D9D69401DFA3268 /* UIColor+BButton.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0271ABE1B7EAAF3DD47FA94 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2906D61C4503EAA5F249E546 /* JVFloatLabeledTextField.h in Headers */,
+				1F34BB367D8FE1BFEEDF12BE /* JVFloatLabeledTextView.h in Headers */,
+				D5EA3D2C90120C9003B1ECD5 /* NSString+TextDirectionality.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3BCD53B1B2C0C9825503A9A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D70CB745CECB1C167DA1274 /* AppsaholicSDK.h in Headers */,
+				079B0A6061BAB73B9577CB02 /* MBProgressHUD.h in Headers */,
+				73C7F049418E074306ED4DBD /* Reachability.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		026D5EB8AAC34789731266A3 /* Pods-perkAppsaholic-AppsaholicSDK */ = {
+		11FDF1FA127DA400FA126E1C /* Pods-perkAppsaholic-AppsaholicSDK */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6F4BE1F8A2196338EADF8DCD /* Build configuration list for PBXNativeTarget "Pods-perkAppsaholic-AppsaholicSDK" */;
+			buildConfigurationList = 1662E92F7109B75E64570E0B /* Build configuration list for PBXNativeTarget "Pods-perkAppsaholic-AppsaholicSDK" */;
 			buildPhases = (
-				4E19CF037C5A6694E2B7B7AA /* Sources */,
-				C89E1822E7A8791153C74E8F /* Frameworks */,
-				78FB44FBE81B13FBD27CB0EB /* Headers */,
+				53C246706034C6C36ED3394A /* Sources */,
+				1BE4E2E378F7829AFAC776CF /* Frameworks */,
+				F3BCD53B1B2C0C9825503A9A /* Headers */,
 			);
 			buildRules = (
 			);
@@ -304,100 +470,156 @@
 			);
 			name = "Pods-perkAppsaholic-AppsaholicSDK";
 			productName = "Pods-perkAppsaholic-AppsaholicSDK";
-			productReference = 3AE37162F07D01CA09D3D54D /* libPods-perkAppsaholic-AppsaholicSDK.a */;
+			productReference = E28363BFB1B4C35B91579FB4 /* libPods-perkAppsaholic-AppsaholicSDK.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		C787479736551C22E2440595 /* Pods-perkAppsaholic */ = {
+		72C7DE14EC28D50DE52E449C /* Pods-perkAppsaholic-BButton */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00A407354A2F42225D78EF5D /* Build configuration list for PBXNativeTarget "Pods-perkAppsaholic" */;
+			buildConfigurationList = C9790FCD570E0F0536CF3768 /* Build configuration list for PBXNativeTarget "Pods-perkAppsaholic-BButton" */;
 			buildPhases = (
-				2211857F0765FEA269BCCEFE /* Sources */,
-				42875DAF5814B9C7E1A42E9F /* Frameworks */,
+				5C2C98E9A7214B13453F6872 /* Sources */,
+				1494BB13F25CD4C0300A3FB6 /* Frameworks */,
+				208F36C2714CF340619C127D /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				29F88373E30C9655ADCC88A7 /* PBXTargetDependency */,
+			);
+			name = "Pods-perkAppsaholic-BButton";
+			productName = "Pods-perkAppsaholic-BButton";
+			productReference = 7C203A9F201C126AD9A360CE /* libPods-perkAppsaholic-BButton.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		994FE706E876705729F12F45 /* Pods-perkAppsaholic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6EDBDB02AAFB528C6A0FB46 /* Build configuration list for PBXNativeTarget "Pods-perkAppsaholic" */;
+			buildPhases = (
+				A047FA887D2E3A1695A55C25 /* Sources */,
+				01C10706AE2A5D7F981CF4E0 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				457E0FCC9CADFC948DCF5AE0 /* PBXTargetDependency */,
+				DABDD818D157413C6D6F49FB /* PBXTargetDependency */,
+				9CD691163F4F867599FCEEED /* PBXTargetDependency */,
 			);
 			name = "Pods-perkAppsaholic";
 			productName = "Pods-perkAppsaholic";
-			productReference = 4AAF6DBF55E063FEF1123A55 /* libPods-perkAppsaholic.a */;
+			productReference = FA8429CAE9510E808E1B9BBB /* libPods-perkAppsaholic.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F1A1A2860EB774347C6B905D /* Pods-perkAppsaholic-JVFloatLabeledTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B6EB5C1B8DB20727A2CD3AF /* Build configuration list for PBXNativeTarget "Pods-perkAppsaholic-JVFloatLabeledTextField" */;
+			buildPhases = (
+				EA134329ED38AB4185DA01C8 /* Sources */,
+				06BEDCD6670C71DCA2643492 /* Frameworks */,
+				E0271ABE1B7EAAF3DD47FA94 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-perkAppsaholic-JVFloatLabeledTextField";
+			productName = "Pods-perkAppsaholic-JVFloatLabeledTextField";
+			productReference = 2F3FDA117BA66FABA36662E8 /* libPods-perkAppsaholic-JVFloatLabeledTextField.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		FDC6EDE4F6361852C308B528 /* Project object */ = {
+		DA3DF179DAB1161FFBBF037F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0640;
 			};
-			buildConfigurationList = BFAAB975D3211DA412D87B6B /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = C35BA9B1AE5E35AD73AB0582 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = EF1BC1306349043E110AA11D;
-			productRefGroup = A544FEEAC1E4D933186D532F /* Products */;
+			mainGroup = FAF123FD058471488BB116D6;
+			productRefGroup = 4D1A9133EC48AE4A33078778 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C787479736551C22E2440595 /* Pods-perkAppsaholic */,
-				026D5EB8AAC34789731266A3 /* Pods-perkAppsaholic-AppsaholicSDK */,
+				994FE706E876705729F12F45 /* Pods-perkAppsaholic */,
+				11FDF1FA127DA400FA126E1C /* Pods-perkAppsaholic-AppsaholicSDK */,
+				72C7DE14EC28D50DE52E449C /* Pods-perkAppsaholic-BButton */,
+				F1A1A2860EB774347C6B905D /* Pods-perkAppsaholic-JVFloatLabeledTextField */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2211857F0765FEA269BCCEFE /* Sources */ = {
+		53C246706034C6C36ED3394A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2CBDB71357A8C503AEA3418C /* Pods-perkAppsaholic-dummy.m in Sources */,
+				861B5E7F9C8A2F637A4D6A5F /* MBProgressHUD.m in Sources */,
+				E5A55C41BD8D41939DA287C8 /* Pods-perkAppsaholic-AppsaholicSDK-dummy.m in Sources */,
+				96F0D989B72B201D83E6FC9A /* Reachability.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4E19CF037C5A6694E2B7B7AA /* Sources */ = {
+		5C2C98E9A7214B13453F6872 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				209527E1F8353B4D3F45D2CD /* MBProgressHUD.m in Sources */,
-				9AD37913142BA07EA7AAAA1E /* Pods-perkAppsaholic-AppsaholicSDK-dummy.m in Sources */,
-				3D525682B64DE64B12441CCB /* Reachability.m in Sources */,
+				B727716B939856588EFA1B35 /* BButton.m in Sources */,
+				076A43257EA48CC1B0E3059D /* NSString+FontAwesome.m in Sources */,
+				300BE2C34FDBD624A08D6300 /* Pods-perkAppsaholic-BButton-dummy.m in Sources */,
+				0B629463262AE3A5BD39BB25 /* UIColor+BButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A047FA887D2E3A1695A55C25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93FA2B134DD6184EC0B932E8 /* Pods-perkAppsaholic-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA134329ED38AB4185DA01C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				732BE3E41C919867D41208F9 /* JVFloatLabeledTextField.m in Sources */,
+				7A835966FD7D8E057CB46AF9 /* JVFloatLabeledTextView.m in Sources */,
+				39FEEA060AA61396E41CF3E5 /* NSString+TextDirectionality.m in Sources */,
+				9F00B7A14CD77B75BB856393 /* Pods-perkAppsaholic-JVFloatLabeledTextField-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		29F88373E30C9655ADCC88A7 /* PBXTargetDependency */ = {
+		457E0FCC9CADFC948DCF5AE0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-perkAppsaholic-AppsaholicSDK";
-			target = 026D5EB8AAC34789731266A3 /* Pods-perkAppsaholic-AppsaholicSDK */;
-			targetProxy = D77F5CA43124F3FFBA3F2C3F /* PBXContainerItemProxy */;
+			target = 11FDF1FA127DA400FA126E1C /* Pods-perkAppsaholic-AppsaholicSDK */;
+			targetProxy = B28DFDCD118CD1D6D74F260F /* PBXContainerItemProxy */;
+		};
+		9CD691163F4F867599FCEEED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-perkAppsaholic-JVFloatLabeledTextField";
+			target = F1A1A2860EB774347C6B905D /* Pods-perkAppsaholic-JVFloatLabeledTextField */;
+			targetProxy = 84EFC24532F42ABB9E75B0F7 /* PBXContainerItemProxy */;
+		};
+		DABDD818D157413C6D6F49FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-perkAppsaholic-BButton";
+			target = 72C7DE14EC28D50DE52E449C /* Pods-perkAppsaholic-BButton */;
+			targetProxy = 0137D81E7973347F71796D68 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		5C4CEE83D4B275E039C52CD5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0CA550633C9EC94D7D911A7E /* Pods-perkAppsaholic-AppsaholicSDK-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-perkAppsaholic-AppsaholicSDK/Pods-perkAppsaholic-AppsaholicSDK-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		A5CD8E244105F06CFFF760CA /* Release */ = {
+		0484E141D5123E21D63ACE5A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -424,19 +646,35 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		AC7293035B4A97D0936519A9 /* Release */ = {
+		13BCB97443AFED762D726803 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 96AFF878AE16F7FB580E0AD2 /* Pods-perkAppsaholic.release.xcconfig */;
+			baseConfigurationReference = 3974477BD78E3F0E6441DB3F /* Pods-perkAppsaholic-AppsaholicSDK-Private.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-perkAppsaholic-AppsaholicSDK/Pods-perkAppsaholic-AppsaholicSDK-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		14BAD514F908BD04250700F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4427FEBF794F46A0C6712FE6 /* Pods-perkAppsaholic.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -447,28 +685,28 @@
 			};
 			name = Release;
 		};
-		CE90E60419B9CEC0DCF8EE18 /* Release */ = {
+		37E2D424AD782EAF217185A7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0CA550633C9EC94D7D911A7E /* Pods-perkAppsaholic-AppsaholicSDK-Private.xcconfig */;
+			baseConfigurationReference = 0060C9ACF41EF6244FF84AEB /* Pods-perkAppsaholic-JVFloatLabeledTextField-Private.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-perkAppsaholic-AppsaholicSDK/Pods-perkAppsaholic-AppsaholicSDK-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-perkAppsaholic-JVFloatLabeledTextField/Pods-perkAppsaholic-JVFloatLabeledTextField-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
-			name = Release;
+			name = Debug;
 		};
-		D7DE5E36EA9CE3CFB9E1BCA6 /* Debug */ = {
+		4BBC69C7C84C13C34E1DBA03 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C29B52F9AF4E3256689AE759 /* Pods-perkAppsaholic.debug.xcconfig */;
+			baseConfigurationReference = 3798D05797A60E37214EA245 /* Pods-perkAppsaholic.debug.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -479,7 +717,7 @@
 			};
 			name = Debug;
 		};
-		ED9B2A16CD9ECAFBF36F011E /* Debug */ = {
+		7DEB8D2B13D5A1DF3ACB682B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -511,44 +749,126 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
+		984797C56F4D6C76B1850760 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3974477BD78E3F0E6441DB3F /* Pods-perkAppsaholic-AppsaholicSDK-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-perkAppsaholic-AppsaholicSDK/Pods-perkAppsaholic-AppsaholicSDK-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		9E1B1648906E19031D975624 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3A26A25E4C1B87EAF887D0D /* Pods-perkAppsaholic-BButton-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-perkAppsaholic-BButton/Pods-perkAppsaholic-BButton-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		E0D2FBE35D6850C4E0FC98E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3A26A25E4C1B87EAF887D0D /* Pods-perkAppsaholic-BButton-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-perkAppsaholic-BButton/Pods-perkAppsaholic-BButton-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		FD2374F9F1D6087EB5970488 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0060C9ACF41EF6244FF84AEB /* Pods-perkAppsaholic-JVFloatLabeledTextField-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-perkAppsaholic-JVFloatLabeledTextField/Pods-perkAppsaholic-JVFloatLabeledTextField-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00A407354A2F42225D78EF5D /* Build configuration list for PBXNativeTarget "Pods-perkAppsaholic" */ = {
+		1662E92F7109B75E64570E0B /* Build configuration list for PBXNativeTarget "Pods-perkAppsaholic-AppsaholicSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D7DE5E36EA9CE3CFB9E1BCA6 /* Debug */,
-				AC7293035B4A97D0936519A9 /* Release */,
+				13BCB97443AFED762D726803 /* Debug */,
+				984797C56F4D6C76B1850760 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6F4BE1F8A2196338EADF8DCD /* Build configuration list for PBXNativeTarget "Pods-perkAppsaholic-AppsaholicSDK" */ = {
+		2B6EB5C1B8DB20727A2CD3AF /* Build configuration list for PBXNativeTarget "Pods-perkAppsaholic-JVFloatLabeledTextField" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5C4CEE83D4B275E039C52CD5 /* Debug */,
-				CE90E60419B9CEC0DCF8EE18 /* Release */,
+				37E2D424AD782EAF217185A7 /* Debug */,
+				FD2374F9F1D6087EB5970488 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BFAAB975D3211DA412D87B6B /* Build configuration list for PBXProject "Pods" */ = {
+		C35BA9B1AE5E35AD73AB0582 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ED9B2A16CD9ECAFBF36F011E /* Debug */,
-				A5CD8E244105F06CFFF760CA /* Release */,
+				7DEB8D2B13D5A1DF3ACB682B /* Debug */,
+				0484E141D5123E21D63ACE5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9790FCD570E0F0536CF3768 /* Build configuration list for PBXNativeTarget "Pods-perkAppsaholic-BButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0D2FBE35D6850C4E0FC98E6 /* Debug */,
+				9E1B1648906E19031D975624 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6EDBDB02AAFB528C6A0FB46 /* Build configuration list for PBXNativeTarget "Pods-perkAppsaholic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BBC69C7C84C13C34E1DBA03 /* Debug */,
+				14BAD514F908BD04250700F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = FDC6EDE4F6361852C308B528 /* Project object */;
+	rootObject = DA3DF179DAB1161FFBBF037F /* Project object */;
 }

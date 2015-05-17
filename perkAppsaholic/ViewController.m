@@ -11,6 +11,7 @@
 #import "ArticleListing.h"
 #import "Utilities.h"
 #import "AppsaholicSDK.h"
+#import "RSSFeedsList.h"
 
 @interface ViewController ()
 
@@ -26,7 +27,8 @@
     ((AppsaholicSDK*)[AppsaholicSDK sharedManager]).rootViewController = self;
     [self startAppsaholicSession];
     [super viewDidLoad];
-    [self testFeedParsing];
+   // [self testFeedParsing];
+    [self loadFeedList];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -39,6 +41,11 @@
     [[AppsaholicSDK sharedManager] startSession:APPSAHOLIC_API_KEY withSuccess:^(BOOL success, NSString* status) {
         
     }];
+}
+
+- (void)loadFeedList{
+    RSSFeedsList *rss = [[RSSFeedsList alloc] initWithNibName:nil bundle:nil];
+    [self.navigationController pushViewController:rss animated:NO];
 }
 
 -(void)testFeedParsing {

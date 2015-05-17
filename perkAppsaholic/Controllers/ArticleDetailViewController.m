@@ -23,10 +23,19 @@
     // Do any additional setup after loading the view.
 }
 
+- (void)viewWillDisappear:(BOOL)animated{
+    [scroll disableTimers];
+}
+
+
 - (void)loadUIForFeed:(MWFeedItem *)feed{
     scroll = [[ArticleScrollView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height) andFeedItem:feed];
     scroll.del = self;
     [self.view addSubview:scroll];
+}
+
+- (void)viewDidAppear:(BOOL)animated{
+    self.navigationController.navigationBarHidden = NO;
 }
 
 - (void)didReceiveMemoryWarning {

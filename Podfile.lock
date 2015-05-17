@@ -1,8 +1,12 @@
 PODS:
   - AppsaholicSDK (0.0.1)
+  - BButton (4.0.2)
+  - JVFloatLabeledTextField (1.0.3)
 
 DEPENDENCIES:
   - AppsaholicSDK (from `../AppsaholicUniversalSDK`)
+  - BButton
+  - JVFloatLabeledTextField
 
 EXTERNAL SOURCES:
   AppsaholicSDK:
@@ -10,5 +14,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AppsaholicSDK: 055529891dc8b9f8cd91cd291181ae82dc051f5c
+  BButton: ab0f2ed3b998ae73c5188b57d270d81e4a1eeb27
+  JVFloatLabeledTextField: ca07a9934994408db69e7d1923732c52590edb30
 
 COCOAPODS: 0.37.1

@@ -30,7 +30,7 @@
 }
 
 - (void)viewWillAppear:(BOOL)animated{
-    self.navigationItem.hidesBackButton = YES;
+    self.navigationController.navigationBarHidden = NO;
 }
 
 - (void)allocations{

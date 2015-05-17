@@ -19,7 +19,7 @@
     CGFloat height = lbl.frame.size.height;
     [lbl removeFromSuperview];
     lbl = nil;
-    return height;
+    return height + 0.12 * height;
 }
 
 

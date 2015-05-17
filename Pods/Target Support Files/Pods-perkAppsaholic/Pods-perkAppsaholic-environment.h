@@ -12,3 +12,15 @@
 #define COCOAPODS_VERSION_MINOR_AppsaholicSDK 0
 #define COCOAPODS_VERSION_PATCH_AppsaholicSDK 1
 
+// BButton
+#define COCOAPODS_POD_AVAILABLE_BButton
+#define COCOAPODS_VERSION_MAJOR_BButton 4
+#define COCOAPODS_VERSION_MINOR_BButton 0
+#define COCOAPODS_VERSION_PATCH_BButton 2
+
+// JVFloatLabeledTextField
+#define COCOAPODS_POD_AVAILABLE_JVFloatLabeledTextField
+#define COCOAPODS_VERSION_MAJOR_JVFloatLabeledTextField 1
+#define COCOAPODS_VERSION_MINOR_JVFloatLabeledTextField 0
+#define COCOAPODS_VERSION_PATCH_JVFloatLabeledTextField 3
+

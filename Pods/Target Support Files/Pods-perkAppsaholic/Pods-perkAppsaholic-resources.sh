@@ -69,6 +69,7 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_resource "../../AppsaholicUniversalSDK/Resources/logo_perk.png"
   install_resource "../../AppsaholicUniversalSDK/Resources/perk_star.png"
   install_resource "../../AppsaholicUniversalSDK/Resources/TempUnavailable.png"
+  install_resource "BButton/BButton/resources/FontAwesome.ttf"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_resource "../../AppsaholicUniversalSDK/Resources/account.png"
@@ -82,6 +83,7 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_resource "../../AppsaholicUniversalSDK/Resources/logo_perk.png"
   install_resource "../../AppsaholicUniversalSDK/Resources/perk_star.png"
   install_resource "../../AppsaholicUniversalSDK/Resources/TempUnavailable.png"
+  install_resource "BButton/BButton/resources/FontAwesome.ttf"
 fi
 
 rsync -avr --copy-links --no-relative --exclude '*/.svn/*' --files-from="$RESOURCES_TO_COPY" / "${CONFIGURATION_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"

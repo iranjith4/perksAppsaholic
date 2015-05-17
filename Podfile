@@ -3,4 +3,6 @@
 
 target 'perkAppsaholic' do
 pod 'AppsaholicSDK', :path => '../AppsaholicUniversalSDK'
+pod 'BButton'
+pod 'JVFloatLabeledTextField'
 end

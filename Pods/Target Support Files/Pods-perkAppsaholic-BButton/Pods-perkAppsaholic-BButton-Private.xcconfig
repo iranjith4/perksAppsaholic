@@ -1,0 +1,6 @@
+#include "Pods-perkAppsaholic-BButton.xcconfig"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/BButton" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/AppsaholicSDK" "${PODS_ROOT}/Headers/Public/BButton" "${PODS_ROOT}/Headers/Public/JVFloatLabeledTextField"
+OTHER_LDFLAGS = ${PODS_PERKAPPSAHOLIC_BBUTTON_OTHER_LDFLAGS} -ObjC
+PODS_ROOT = ${SRCROOT}
+SKIP_INSTALL = YES

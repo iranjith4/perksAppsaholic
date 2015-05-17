@@ -19,6 +19,7 @@
     float yPos;
     int currentPage;
     NSTimer *timer;
+    BOOL isRewardClaimed;
     
     //Time Calculation Algorithm
     int numberOfPages;
@@ -37,12 +38,18 @@
     return self;
 }
 
+- (void)disableTimers{
+    [timer invalidate];
+    timer = nil;
+}
+
 - (void) initUI{
+    isRewardClaimed = NO;
     xPos = 10;
     yPos = 10;
     
     //Setting the number of Pages to 4
-    numberOfPages = 3;
+    numberOfPages = [self getNumberOfPages];
     
     // Scroll Settings
     self.scrollEnabled = YES;
@@ -66,11 +73,11 @@
     [self addALine];
     [self loadEnclosures];
     [self addArticleContent];
-    [self addArticleContent];
-    [self addArticleContent];
-    
     [self addCharts];
+    
+    self.contentSize = CGSizeMake(self.frame.size.width, yPos);
 }
+
 
 
 - (void)loadHeading{
@@ -108,7 +115,7 @@
 
 - (void)addArticleContent{
     UILabel *author = [[UILabel alloc] initWithFrame:CGRectMake(10, yPos, self.frame.size.width - 20, self.frame.size.width * 0.10)];
-    author.font = [UIFont fontWithName:FONT_REGULAR size:13];
+    author.font = [UIFont fontWithName:FONT_REGULAR size:16];
     author.textColor = [UIColor colorWithWhite:0.245 alpha:1.000];
     author.textAlignment = NSTextAlignmentLeft;
     author.numberOfLines = 0;
@@ -170,6 +177,7 @@
         yPos += progress.frame.size.height + 1;
     }
     
+    yPos += 20;
 }
 
 #pragma mark - Enclosure thing
@@ -282,7 +290,14 @@
 }
 
 - (void)addAppsPoints{
-    [self.del addpointsForArticles];
+    if (!isRewardClaimed) {
+        if (self) {
+            [self.del addpointsForArticles];
+            isRewardClaimed = YES;
+
+        }
+            }
+    
 }
 
 - (void)updateProgress{
@@ -292,6 +307,27 @@
                 view.progress = (float)[[timerArray objectAtIndex:tag] intValue] / ARTICLE_PAGE_READ_TIME;
         }
     }
+}
+
+- (int)getNumberOfPages{
+    CGFloat x,y;
+    x = 10;
+    y = 10;
+    
+    y += 30;
+    
+    y += [Utilities heightForLabel:[Utilities decodedString:feedItem.title] inRect:CGRectMake(xPos, yPos, self.frame.size.width - xPos - 5, 600) withFont:[UIFont fontWithName:FONT_BOLD size:25] lines:0];
+    
+    y += [Utilities heightForLabel:[Utilities decodedString:feedItem.content] inRect:CGRectMake(xPos, yPos, self.frame.size.width - xPos - 5, 600) withFont:[UIFont fontWithName:FONT_BOLD size:16] lines:0];
+    
+     y += [Utilities heightForLabel:[Utilities decodedString:feedItem.author] inRect:CGRectMake(xPos, yPos, self.frame.size.width - xPos - 5, 600) withFont:[UIFont fontWithName:FONT_BOLD size:13] lines:0];
+    
+    y += 10;
+    
+    CGSize size = CGSizeMake(self.frame.size.width, y);
+    
+    int pageN = size.height / self.frame.size.height;
+    return pageN;
 }
 
 #pragma mark - Bar Chart
