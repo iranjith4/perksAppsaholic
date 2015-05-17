@@ -27,8 +27,8 @@
     ((AppsaholicSDK*)[AppsaholicSDK sharedManager]).rootViewController = self;
     [self startAppsaholicSession];
     [super viewDidLoad];
-    [self testFeedParsing];
-    //[self loadFeedList];
+    //[self testFeedParsing];
+    [self loadFeedList];
     // Do any additional setup after loading the view, typically from a nib.
 }
 

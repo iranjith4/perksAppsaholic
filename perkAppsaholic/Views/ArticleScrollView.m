@@ -51,7 +51,7 @@
     //Setting the number of Pages to 4
     numberOfPages = [self getNumberOfPages];
     
-    for (int i = 0; i < numberOfPages+1; i++) {
+    for (int i = 0; i < numberOfPages; i++) {
         [timerArray addObject:[NSNumber numberWithInt:0]];
     }
     
@@ -148,7 +148,6 @@
 //    barChartView.dataSource = self;
 //    barChartView.delegate = self;
 //    [self addSubview:barChartView];
-//    
 //    [barChartView reloadData];
     
     
@@ -164,7 +163,7 @@
         
         UILabel *page = [[UILabel alloc] initWithFrame:CGRectMake(10, yPos, self.frame.size.width, self.frame.size.height)];
         page.font = [UIFont fontWithName:FONT_BOLD size:10];
-        page.text = [NSString stringWithFormat:@"Page %d",i+1];
+        page.text = [NSString stringWithFormat:@"Page %d",i +1];
         page.textColor = [UIColor grayColor];
         [page sizeToFit];
         [self addSubview:page];
@@ -263,7 +262,7 @@
     
     //Exception Handled here
     if (index >= timerArray.count) {
-        
+        index = index - 1;
     }
     NSLog(@"INDEX %d",index);
     int getTime = [[timerArray objectAtIndex:index] intValue];

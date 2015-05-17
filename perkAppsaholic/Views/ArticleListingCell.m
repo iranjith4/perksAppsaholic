@@ -58,6 +58,7 @@
     if (!self.time) {
         self.time = [[UILabel alloc] initWithFrame:CGRectMake(xPos, yPos, self.frame.size.width - 20, self.frame.size.width * 0.09)];
         self.time.numberOfLines = 10;
+        self.time.textColor = [UIColor orangeColor];
         self.time.lineBreakMode = NSLineBreakByWordWrapping;
         self.time.font = [UIFont fontWithName:FONT_REGULAR size:13];
         self.time.textAlignment = NSTextAlignmentLeft;
