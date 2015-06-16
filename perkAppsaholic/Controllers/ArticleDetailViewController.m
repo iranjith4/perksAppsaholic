@@ -44,9 +44,9 @@
 }
 
 - (void)addpointsForArticles{
-    [[AppsaholicSDK sharedManager] trackEvent:EVNT_ARTICLE notificationType:NO withController:self withSuccess:^(BOOL success, NSString *notificationtext, NSNumber *pointEarned) {
-        NSLog(@"%@ and %@",notificationtext,pointEarned);
-    }];
+//    [[AppsaholicSDK sharedManager] trackEvent:EVNT_ARTICLE notificationType:NO withController:self withSuccess:^(BOOL success, NSString *notificationtext, NSNumber *pointEarned) {
+//        NSLog(@"%@ and %@",notificationtext,pointEarned);
+//    }];
 }
 
 /*

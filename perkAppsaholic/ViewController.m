@@ -10,7 +10,7 @@
 #import "NSString+HTML.h"
 #import "ArticleListing.h"
 #import "Utilities.h"
-#import "AppsaholicSDK.h"
+//#import "AppsaholicSDK.h"
 #import "RSSFeedsList.h"
 
 @interface ViewController ()
@@ -24,8 +24,8 @@
 
 - (void)viewDidLoad {
 //    [AppsaholicSDK sharedManager];
-    ((AppsaholicSDK*)[AppsaholicSDK sharedManager]).rootViewController = self;
-    [self startAppsaholicSession];
+//    ((AppsaholicSDK*)[AppsaholicSDK sharedManager]).rootViewController = self;
+//    [self startAppsaholicSession];
     [super viewDidLoad];
     //[self testFeedParsing];
     [self loadFeedList];
@@ -38,9 +38,9 @@
 }
 
 - (void)startAppsaholicSession{
-    [[AppsaholicSDK sharedManager] startSession:APPSAHOLIC_API_KEY withSuccess:^(BOOL success, NSString* status) {
-        
-    }];
+//    [[AppsaholicSDK sharedManager] startSession:APPSAHOLIC_API_KEY withSuccess:^(BOOL success, NSString* status) {
+//        
+//    }];
 }
 
 - (void)loadFeedList{

@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "MWFeedItem.h"
 #import "ArticleScrollView.h"
-#import "AppsaholicSDK.h"
+//#import "AppsaholicSDK.h"
 
 @interface ArticleDetailViewController : UIViewController <ArticlesDelegate>
 
