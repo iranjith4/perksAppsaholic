@@ -1,9 +1,6 @@
-FRAMEWORK_SEARCH_PATHS = "$(PODS_ROOT)/../../AppsaholicUniversalSDK/aerserv-ios-sdk-min/lib" "$(PODS_ROOT)/../../AppsaholicUniversalSDK/FacebookSDK" "$(PODS_ROOT)/../../AppsaholicUniversalSDK/PollfishSDK"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/AppsaholicSDK" "${PODS_ROOT}/Headers/Public/BButton" "${PODS_ROOT}/Headers/Public/JVFloatLabeledTextField"
-LD_RUNPATH_SEARCH_PATHS = @loader_path/../Frameworks
-LIBRARY_SEARCH_PATHS = "$(PODS_ROOT)/../../AppsaholicUniversalSDK"
-OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/AppsaholicSDK" -isystem "${PODS_ROOT}/Headers/Public/BButton" -isystem "${PODS_ROOT}/Headers/Public/JVFloatLabeledTextField"
-OTHER_LDFLAGS = $(inherited) -ObjC -l"AppsaholicSDK-2.2.1" -l"Pods-perkAppsaholic-AppsaholicSDK" -l"Pods-perkAppsaholic-BButton" -l"Pods-perkAppsaholic-JVFloatLabeledTextField" -l"iconv" -l"sqlite3" -l"xml2" -l"z" -framework "AVFoundation" -framework "AdSupport" -framework "AerServSDK" -framework "AudioToolbox" -framework "CFNetwork" -framework "CoreGraphics" -framework "CoreMedia" -framework "CoreMotion" -framework "CoreTelephony" -framework "FBAudienceNetwork" -framework "Foundation" -framework "MediaPlayer" -framework "QuartzCore" -framework "StoreKit" -framework "SystemConfiguration" -framework "UIKit" -framework "iAd" -framework "pollfish"
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/BButton" "${PODS_ROOT}/Headers/Public/JVFloatLabeledTextField"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/BButton" -isystem "${PODS_ROOT}/Headers/Public/JVFloatLabeledTextField"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"Pods-perkAppsaholic-BButton" -l"Pods-perkAppsaholic-JVFloatLabeledTextField" -framework "CoreGraphics" -framework "Foundation" -framework "UIKit"
 OTHER_LIBTOOLFLAGS = $(OTHER_LDFLAGS)
 PODS_ROOT = ${SRCROOT}/Pods

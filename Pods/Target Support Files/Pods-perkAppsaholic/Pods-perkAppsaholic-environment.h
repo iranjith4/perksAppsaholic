@@ -6,12 +6,6 @@
 // project.
 
 
-// AppsaholicSDK
-#define COCOAPODS_POD_AVAILABLE_AppsaholicSDK
-#define COCOAPODS_VERSION_MAJOR_AppsaholicSDK 0
-#define COCOAPODS_VERSION_MINOR_AppsaholicSDK 0
-#define COCOAPODS_VERSION_PATCH_AppsaholicSDK 1
-
 // BButton
 #define COCOAPODS_POD_AVAILABLE_BButton
 #define COCOAPODS_VERSION_MAJOR_BButton 4

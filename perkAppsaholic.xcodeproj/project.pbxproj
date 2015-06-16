@@ -63,6 +63,11 @@
 		C6F0190D1B07CECD006D497C /* NSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F0190A1B07CECD006D497C /* NSString+HTML.m */; };
 		C6F0190E1B07CECD006D497C /* NSDate+InternetDateTime.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F0190C1B07CECD006D497C /* NSDate+InternetDateTime.m */; };
 		C6F019111B07CF1E006D497C /* GTMNSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F019101B07CF1E006D497C /* GTMNSString+HTML.m */; };
+		F0279CDD1B302BFF0041C9DE /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = F0279CDC1B302BFF0041C9DE /* MBProgressHUD.m */; };
+		F0279CE11B3030C70041C9DE /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0279CE01B3030C70041C9DE /* CoreMedia.framework */; };
+		F0279CE31B3030DA0041C9DE /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0279CE21B3030DA0041C9DE /* OpenGLES.framework */; };
+		F0279CEA1B3031350041C9DE /* libTestFairy.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F0279CE71B3031350041C9DE /* libTestFairy.a */; };
+		F0279CEB1B3031350041C9DE /* upload-dsym.sh in Resources */ = {isa = PBXBuildFile; fileRef = F0279CE91B3031350041C9DE /* upload-dsym.sh */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -155,6 +160,13 @@
 		C6F0190F1B07CF1E006D497C /* GTMNSString+HTML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GTMNSString+HTML.h"; sourceTree = "<group>"; };
 		C6F019101B07CF1E006D497C /* GTMNSString+HTML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GTMNSString+HTML.m"; sourceTree = "<group>"; };
 		DB42DA88EC08162A8A0D3A01 /* Pods-perkAppsaholic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-perkAppsaholic.debug.xcconfig"; path = "Pods/Target Support Files/Pods-perkAppsaholic/Pods-perkAppsaholic.debug.xcconfig"; sourceTree = "<group>"; };
+		F0279CDB1B302BFF0041C9DE /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		F0279CDC1B302BFF0041C9DE /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		F0279CE01B3030C70041C9DE /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		F0279CE21B3030DA0041C9DE /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		F0279CE71B3031350041C9DE /* libTestFairy.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTestFairy.a; sourceTree = "<group>"; };
+		F0279CE81B3031350041C9DE /* TestFairy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestFairy.h; sourceTree = "<group>"; };
+		F0279CE91B3031350041C9DE /* upload-dsym.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "upload-dsym.sh"; sourceTree = "<group>"; };
 		F42C8077D9E774F6654E7640 /* libPods-perkAppsaholic.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-perkAppsaholic.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -163,6 +175,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0279CE31B3030DA0041C9DE /* OpenGLES.framework in Frameworks */,
+				F0279CE11B3030C70041C9DE /* CoreMedia.framework in Frameworks */,
 				C67484691B07F9C2009EB012 /* Bolts.framework in Frameworks */,
 				C674844F1B07F7E1009EB012 /* Parse.framework in Frameworks */,
 				C67484611B07F960009EB012 /* Accounts.framework in Frameworks */,
@@ -174,6 +188,7 @@
 				C67484571B07F82F009EB012 /* QuartzCore.framework in Frameworks */,
 				C67484551B07F824009EB012 /* MobileCoreServices.framework in Frameworks */,
 				C67484531B07F81A009EB012 /* CoreGraphics.framework in Frameworks */,
+				F0279CEA1B3031350041C9DE /* libTestFairy.a in Frameworks */,
 				C674846E1B07F9C2009EB012 /* ParseUI.framework in Frameworks */,
 				C67484511B07F812009EB012 /* CFNetwork.framework in Frameworks */,
 				C6F0184E1B07C2EB006D497C /* AudioToolbox.framework in Frameworks */,
@@ -215,6 +230,8 @@
 		5D4ED9488E172375C3A1889B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F0279CE21B3030DA0041C9DE /* OpenGLES.framework */,
+				F0279CE01B3030C70041C9DE /* CoreMedia.framework */,
 				C67484601B07F960009EB012 /* Accounts.framework */,
 				C674845E1B07F940009EB012 /* Social.framework */,
 				C674845C1B07F851009EB012 /* libsqlite3.dylib */,
@@ -390,6 +407,9 @@
 		C6F018FD1B07CE96006D497C /* ThirdPartyLib */ = {
 			isa = PBXGroup;
 			children = (
+				F0279CE61B3031350041C9DE /* TestFairy */,
+				F0279CDB1B302BFF0041C9DE /* MBProgressHUD.h */,
+				F0279CDC1B302BFF0041C9DE /* MBProgressHUD.m */,
 				C67484621B07F9C2009EB012 /* parse-library-1.7.1 */,
 				C674844E1B07F7E1009EB012 /* Parse.framework */,
 				C6F018FE1B07CEBA006D497C /* Witty */,
@@ -415,6 +435,16 @@
 				C6F0190C1B07CECD006D497C /* NSDate+InternetDateTime.m */,
 			);
 			path = Witty;
+			sourceTree = "<group>";
+		};
+		F0279CE61B3031350041C9DE /* TestFairy */ = {
+			isa = PBXGroup;
+			children = (
+				F0279CE71B3031350041C9DE /* libTestFairy.a */,
+				F0279CE81B3031350041C9DE /* TestFairy.h */,
+				F0279CE91B3031350041C9DE /* upload-dsym.sh */,
+			);
+			path = TestFairy;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -507,6 +537,7 @@
 				C6E0D2131B07D61E00C18CA2 /* vg_mute_off.png in Resources */,
 				C6B8C9611B064BBC00B9B9CF /* LaunchScreen.xib in Resources */,
 				C6B8C95E1B064BBC00B9B9CF /* Images.xcassets in Resources */,
+				F0279CEB1B3031350041C9DE /* upload-dsym.sh in Resources */,
 				C6E0D2101B07D61E00C18CA2 /* __vungle.db in Resources */,
 				C6E0D2121B07D61E00C18CA2 /* vg_cta.png in Resources */,
 			);
@@ -566,6 +597,7 @@
 				C6F0190E1B07CECD006D497C /* NSDate+InternetDateTime.m in Sources */,
 				C6F019081B07CEC4006D497C /* MWFeedItem.m in Sources */,
 				C6240FE91B074437005820C5 /* ArticleListingCell.m in Sources */,
+				F0279CDD1B302BFF0041C9DE /* MBProgressHUD.m in Sources */,
 				C6240FF91B076036005820C5 /* ArticleScrollView.m in Sources */,
 				C6B8C9591B064BBC00B9B9CF /* ViewController.m in Sources */,
 				C67484711B0809AC009EB012 /* AddRssViewController.m in Sources */,
@@ -726,6 +758,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/perkAppsaholic/ThirdPartyLib/AppsaholicUniversalSDK",
 					"$(PROJECT_DIR)/perkAppsaholic/AppsaholicUniversalSDK",
+					"$(PROJECT_DIR)/perkAppsaholic/ThirdPartyLib/TestFairy",
 				);
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -761,6 +794,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/perkAppsaholic/ThirdPartyLib/AppsaholicUniversalSDK",
 					"$(PROJECT_DIR)/perkAppsaholic/AppsaholicUniversalSDK",
+					"$(PROJECT_DIR)/perkAppsaholic/ThirdPartyLib/TestFairy",
 				);
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";

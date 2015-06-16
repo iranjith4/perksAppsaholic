@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import <Parse/Parse.h>
+#import "TestFairy.h"
 
 
 @interface AppDelegate ()
@@ -31,7 +32,8 @@
     // [Optional] Track statistics around application opens.
     [PFAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
     
-    
+    //For test fairy tracking
+    [TestFairy begin:@"012fd1503ce50527bde7b67a77677a7f32a2604f"];
     
     // Override point for customization after application launch.
     self.viewController = [[ViewController alloc] initWithNibName:nil bundle:nil];

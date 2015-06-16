@@ -58,31 +58,9 @@ install_resource()
   esac
 }
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_resource "../../AppsaholicUniversalSDK/Resources/account.png"
-  install_resource "../../AppsaholicUniversalSDK/Resources/back.png"
-  install_resource "../../AppsaholicUniversalSDK/Resources/close_button.png"
-  install_resource "../../AppsaholicUniversalSDK/Resources/exclaimation.png"
-  install_resource "../../AppsaholicUniversalSDK/Resources/icon_close.png"
-  install_resource "../../AppsaholicUniversalSDK/Resources/icon_refresh.png"
-  install_resource "../../AppsaholicUniversalSDK/Resources/info.png"
-  install_resource "../../AppsaholicUniversalSDK/Resources/info_circle.png"
-  install_resource "../../AppsaholicUniversalSDK/Resources/logo_perk.png"
-  install_resource "../../AppsaholicUniversalSDK/Resources/perk_star.png"
-  install_resource "../../AppsaholicUniversalSDK/Resources/TempUnavailable.png"
   install_resource "BButton/BButton/resources/FontAwesome.ttf"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_resource "../../AppsaholicUniversalSDK/Resources/account.png"
-  install_resource "../../AppsaholicUniversalSDK/Resources/back.png"
-  install_resource "../../AppsaholicUniversalSDK/Resources/close_button.png"
-  install_resource "../../AppsaholicUniversalSDK/Resources/exclaimation.png"
-  install_resource "../../AppsaholicUniversalSDK/Resources/icon_close.png"
-  install_resource "../../AppsaholicUniversalSDK/Resources/icon_refresh.png"
-  install_resource "../../AppsaholicUniversalSDK/Resources/info.png"
-  install_resource "../../AppsaholicUniversalSDK/Resources/info_circle.png"
-  install_resource "../../AppsaholicUniversalSDK/Resources/logo_perk.png"
-  install_resource "../../AppsaholicUniversalSDK/Resources/perk_star.png"
-  install_resource "../../AppsaholicUniversalSDK/Resources/TempUnavailable.png"
   install_resource "BButton/BButton/resources/FontAwesome.ttf"
 fi
 
