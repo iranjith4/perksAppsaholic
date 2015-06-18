@@ -498,6 +498,7 @@
 				TargetAttributes = {
 					C6B8C9491B064BBC00B9B9CF = {
 						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = PC9QM9CGV4;
 					};
 					C6B8C9651B064BBC00B9B9CF = {
 						CreatedOnToolsVersion = 6.3;
@@ -735,6 +736,8 @@
 			baseConfigurationReference = DB42DA88EC08162A8A0D3A01 /* Pods-perkAppsaholic.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Perk.com LLC";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Perk.com LLC";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/perkAppsaholic/ThirdPartyLib/AppsaholicUniversalSDK/aerserv-ios-sdk-min/lib",
@@ -762,6 +765,7 @@
 				);
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				VALID_ARCHS = "arm64 armv7 armv7s";
 			};
 			name = Debug;
@@ -771,6 +775,8 @@
 			baseConfigurationReference = 0FD0F478E58A106A46E4A3C0 /* Pods-perkAppsaholic.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Perk.com LLC";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Perk.com LLC";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/perkAppsaholic/ThirdPartyLib/AppsaholicUniversalSDK/aerserv-ios-sdk-min/lib",
@@ -798,6 +804,7 @@
 				);
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				VALID_ARCHS = "arm64 armv7 armv7s";
 			};
 			name = Release;
