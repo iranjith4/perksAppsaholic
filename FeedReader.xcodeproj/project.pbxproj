@@ -122,7 +122,7 @@
 		C67484681B07F9C2009EB012 /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
 		C674846F1B0809AC009EB012 /* AddRssViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddRssViewController.h; sourceTree = "<group>"; };
 		C67484701B0809AC009EB012 /* AddRssViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddRssViewController.m; sourceTree = "<group>"; };
-		C6B8C94A1B064BBC00B9B9CF /* perkAppsaholic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = perkAppsaholic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6B8C94A1B064BBC00B9B9CF /* FeedReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FeedReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6B8C94E1B064BBC00B9B9CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C6B8C94F1B064BBC00B9B9CF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C6B8C9511B064BBC00B9B9CF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -133,7 +133,7 @@
 		C6B8C95B1B064BBC00B9B9CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C6B8C95D1B064BBC00B9B9CF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C6B8C9601B064BBC00B9B9CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		C6B8C9661B064BBC00B9B9CF /* perkAppsaholicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = perkAppsaholicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6B8C9661B064BBC00B9B9CF /* FeedReaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FeedReaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6B8C96B1B064BBC00B9B9CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C6B8C96C1B064BBC00B9B9CF /* perkAppsaholicTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = perkAppsaholicTests.m; sourceTree = "<group>"; };
 		C6E0D2091B07D61E00C18CA2 /* __vungle.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = __vungle.db; sourceTree = "<group>"; };
@@ -329,8 +329,8 @@
 		C6B8C94B1B064BBC00B9B9CF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C6B8C94A1B064BBC00B9B9CF /* perkAppsaholic.app */,
-				C6B8C9661B064BBC00B9B9CF /* perkAppsaholicTests.xctest */,
+				C6B8C94A1B064BBC00B9B9CF /* FeedReader.app */,
+				C6B8C9661B064BBC00B9B9CF /* FeedReaderTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -450,9 +450,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C6B8C9491B064BBC00B9B9CF /* perkAppsaholic */ = {
+		C6B8C9491B064BBC00B9B9CF /* FeedReader */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C6B8C9701B064BBC00B9B9CF /* Build configuration list for PBXNativeTarget "perkAppsaholic" */;
+			buildConfigurationList = C6B8C9701B064BBC00B9B9CF /* Build configuration list for PBXNativeTarget "FeedReader" */;
 			buildPhases = (
 				760070189F84096FCEFBA00E /* Check Pods Manifest.lock */,
 				C6B8C9461B064BBC00B9B9CF /* Sources */,
@@ -464,14 +464,14 @@
 			);
 			dependencies = (
 			);
-			name = perkAppsaholic;
+			name = FeedReader;
 			productName = perkAppsaholic;
-			productReference = C6B8C94A1B064BBC00B9B9CF /* perkAppsaholic.app */;
+			productReference = C6B8C94A1B064BBC00B9B9CF /* FeedReader.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C6B8C9651B064BBC00B9B9CF /* perkAppsaholicTests */ = {
+		C6B8C9651B064BBC00B9B9CF /* FeedReaderTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C6B8C9731B064BBC00B9B9CF /* Build configuration list for PBXNativeTarget "perkAppsaholicTests" */;
+			buildConfigurationList = C6B8C9731B064BBC00B9B9CF /* Build configuration list for PBXNativeTarget "FeedReaderTests" */;
 			buildPhases = (
 				C6B8C9621B064BBC00B9B9CF /* Sources */,
 				C6B8C9631B064BBC00B9B9CF /* Frameworks */,
@@ -482,9 +482,9 @@
 			dependencies = (
 				C6B8C9681B064BBC00B9B9CF /* PBXTargetDependency */,
 			);
-			name = perkAppsaholicTests;
+			name = FeedReaderTests;
 			productName = perkAppsaholicTests;
-			productReference = C6B8C9661B064BBC00B9B9CF /* perkAppsaholicTests.xctest */;
+			productReference = C6B8C9661B064BBC00B9B9CF /* FeedReaderTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -506,7 +506,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C6B8C9451B064BBC00B9B9CF /* Build configuration list for PBXProject "perkAppsaholic" */;
+			buildConfigurationList = C6B8C9451B064BBC00B9B9CF /* Build configuration list for PBXProject "FeedReader" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -519,8 +519,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C6B8C9491B064BBC00B9B9CF /* perkAppsaholic */,
-				C6B8C9651B064BBC00B9B9CF /* perkAppsaholicTests */,
+				C6B8C9491B064BBC00B9B9CF /* FeedReader */,
+				C6B8C9651B064BBC00B9B9CF /* FeedReaderTests */,
 			);
 		};
 /* End PBXProject section */
@@ -626,7 +626,7 @@
 /* Begin PBXTargetDependency section */
 		C6B8C9681B064BBC00B9B9CF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C6B8C9491B064BBC00B9B9CF /* perkAppsaholic */;
+			target = C6B8C9491B064BBC00B9B9CF /* FeedReader */;
 			targetProxy = C6B8C9671B064BBC00B9B9CF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -764,7 +764,7 @@
 					"$(PROJECT_DIR)/perkAppsaholic/ThirdPartyLib/TestFairy",
 				);
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = FeedReader;
 				PROVISIONING_PROFILE = "";
 				VALID_ARCHS = "arm64 armv7 armv7s";
 			};
@@ -803,7 +803,7 @@
 					"$(PROJECT_DIR)/perkAppsaholic/ThirdPartyLib/TestFairy",
 				);
 				ONLY_ACTIVE_ARCH = NO;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = FeedReader;
 				PROVISIONING_PROFILE = "";
 				VALID_ARCHS = "arm64 armv7 armv7s";
 			};
@@ -824,7 +824,7 @@
 				);
 				INFOPLIST_FILE = perkAppsaholicTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = FeedReaderTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/perkAppsaholic.app/perkAppsaholic";
 			};
 			name = Debug;
@@ -840,7 +840,7 @@
 				);
 				INFOPLIST_FILE = perkAppsaholicTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = FeedReaderTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/perkAppsaholic.app/perkAppsaholic";
 			};
 			name = Release;
@@ -848,7 +848,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C6B8C9451B064BBC00B9B9CF /* Build configuration list for PBXProject "perkAppsaholic" */ = {
+		C6B8C9451B064BBC00B9B9CF /* Build configuration list for PBXProject "FeedReader" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C6B8C96E1B064BBC00B9B9CF /* Debug */,
@@ -857,7 +857,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C6B8C9701B064BBC00B9B9CF /* Build configuration list for PBXNativeTarget "perkAppsaholic" */ = {
+		C6B8C9701B064BBC00B9B9CF /* Build configuration list for PBXNativeTarget "FeedReader" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C6B8C9711B064BBC00B9B9CF /* Debug */,
@@ -866,7 +866,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C6B8C9731B064BBC00B9B9CF /* Build configuration list for PBXNativeTarget "perkAppsaholicTests" */ = {
+		C6B8C9731B064BBC00B9B9CF /* Build configuration list for PBXNativeTarget "FeedReaderTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C6B8C9741B064BBC00B9B9CF /* Debug */,
